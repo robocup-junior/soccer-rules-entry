@@ -1,0 +1,31 @@
+language: python
+
+dist: bionic
+
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker pull asciidoctor/docker-asciidoctor
+  - docker pull dxjoke/tectonic-docker
+  - sudo apt-get install dblatex xzdec texlive-generic-recommended texlive-fonts-extra
+
+cache:
+  directories:
+    - /tmp/texlive
+    - $HOME/.texlive
+
+script:
+  - ./.ci/make_rules.sh rules
+  - ./.ci/make_rules.sh superteam_rules
+
+after_error:
+  - docker logs asciidoc-to-html
+
+after_failure:
+  - docker logs asciidoc-to-html
+
+after_script:
+  - ./.ci/after_script.sh
