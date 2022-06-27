@@ -1,4 +1,4 @@
-= RoboCupJunior Soccer Entry Rules 2021
+= RoboCupJunior Soccer Entry Rules 2022
 {docdate}
 :toc: left
 :sectanchors:
@@ -17,12 +17,10 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the RoboCup Junior Soccer Entry rules proposed for the super-region of Europe for the 2021 season. They are
-released by the RoboCupJunior Soccer Technical Committee (TC) in coordination with the European RoboCupJunior Regional
+These are the RoboCup Junior Soccer Entry rules for the *1:1 Standard Kit League*,
+proposed for the super-region of Europe for the 2022 season. They are
+released by the RoboCupJunior Soccer Community in coordination with the European RoboCupJunior Regional
 Representatives. The English version of these rules has priority over any translations.
-
-//[title="Two teams with one robot will compete on a RoboCupJunior 1:1 Soccer field using an IR ball."]
-//image::media/soccer_sim_field.png[]
 
 The aim of this document is to provide an entry-level rule set for RCJ Soccer that is harmonized across countries in
 Europe and that may be referenced at European local and super-regional tournaments, as well as beyond Europe if needed.
@@ -30,12 +28,15 @@ However, some sub-regions may have their own version of Soccer Entry rules. Team
 Organizing Committee and Regional Representative regarding updates and changes to this rule set specific to their
 location. Each team is responsible for verifying the correct and latest version of the rules prior to competition.
 
-The RoboCup Junior Soccer Entry rules are not considered to be played at international level, except for super-regional
-tournaments.
+[title="Two teams with one standard kit robot each will compete using an IR ball on RCJ Soccer fields without the out-area. There is no need for using camera vision or line detection. Photo: Andreas Lander"]
+image::media/smallfield_andreas_lander.jpg[]
 
 //IMPORTANT: *NOTE:* This is an early and unrevised draft of these rules. Do not share or redistribute!
 
 IMPORTANT: *NOTE*: This is a draft version of these rules, subject to change.
+
+NOTE: *NOTE*: This ruleset is not intended to be used at international level, except for super-regional
+tournaments in Europe.
 
 //NOTE: These are the Draft rules. Although they are still subject to change, the
 //TC expects the changes to be minimal and at mostly cosmetic.
@@ -71,7 +72,7 @@ specifications.
 [discrete]
 === Competition Cap
 
-{++Team members can participate only twice++} in leagues played according to these
+{++Team members can participate only twice++} in leagues played according to this
 RoboCupJunior Soccer Entry ruleset. After their second participation, they need to
 move on to the international RCJ Soccer leagues instead.
 footnote:[Some regions will have other entry leagues that may be exempt from this rule.
@@ -310,7 +311,7 @@ team. A team claiming that their robot is affected by colors has to show the
 proof/evidence of the interference.
 
 .Anyone close to the playing field is not allowed to wear orange, yellow or blue clothes
-image::media/image2.png[scaledwidth=40.0%]
+image::media/image2.png[scaledwidth=35.0%]
 
 [[robots]]
 == ROBOTS
