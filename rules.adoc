@@ -635,8 +635,8 @@ Committee and Organizing Committee, if necessary even during a tournament.
 === Rule modification
 
 If special circumstances, such as unforeseen problems or capabilities of a
-robot occur, rules may be modified by the RoboCupJunior Soccer Committee, if
-necessary even during a tournament.
+robot occur, rules may be modified by the RoboCupJunior Soccer League 
+Committee, if necessary even during a tournament.
 
 [[regulatory-statutes]]
 === Regulatory statutes
