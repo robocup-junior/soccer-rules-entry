@@ -17,7 +17,7 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-IMPORTANT: These rules WILL NOT AUTOMATICALLY BECOME OFFICIAL. Regional and
+IMPORTANT: Regional and
 super-regional tournament organizers may use these rules, make changes
 specific to their regions or not run Entry leagues at all. Contact your
 regions or super-regions tournament organizers to find out which rules are
