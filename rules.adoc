@@ -26,7 +26,7 @@ going to be played at your tournament.
 TIP: This is a draft version of these rules, subject to change.
 Suggest changes and tell us what you think of the rules in the public 
 discussion and feedback thread on the RoboCup Junior Forum:
-https://junior.forum.robocup.org/t/soccer-entry-league-experiences-questions-ideas-discussions/2678/2
+https://junior.forum.robocup.org/t/2023-entry-league-draft-rules-public-discussion-soccer-rules-entry-2023/2705
 
 NOTE: This ruleset is not intended to be used at international level, except for super-regional
 tournaments.
