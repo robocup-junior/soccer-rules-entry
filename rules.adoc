@@ -1,4 +1,4 @@
-= RoboCupJunior Soccer Entry Rules 2023
+= RoboCupJunior Soccer Entry Lightweight Rules 2023
 {docdate}
 :toc: left
 :sectanchors:
@@ -32,7 +32,7 @@ NOTE: This ruleset is not intended to be used at international level, except for
 tournaments.
 
 //TODO: Final name for the rules
-These are the RoboCup Junior Soccer Entry rules for the *1:1 Entry League*,
+These are the RoboCup Junior Soccer Entry rules for the *1:1 Lightweight League*,
 proposed for suggested use by regional and super-regional tournaments in the 
 2023 season. They are released by the RoboCup Junior League Committee. 
 The English version of these rules has priority over any translations.
@@ -148,7 +148,7 @@ game will not be played and zero goals will be awarded to both teams.
 
 [[kick-off]]
 === Kick-off
-
+Entry
 Each half of the game begins with a kick-off. All robots must be located on
 their own side of the field. All robots must be halted. The ball is positioned
 by a referee in the center of the field.
