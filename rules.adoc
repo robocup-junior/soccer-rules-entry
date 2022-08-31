@@ -479,10 +479,7 @@ field. The goal inner space is {~~60 cm~>45 cm wide~~} and 74 mm deep. It is
 outside the playing field (submerged into the walls). The height of the goal
 is equal to the height of the walls.
 
-{++The goal has a cross-bar on top (to prevent robots from entering the goal).
-The size of the cross-bar is 2 +/- 1 cm in height.++}
-
-The interior walls and the crossbar of each goal are painted, one goal in yellow,
+The interior walls and the of each goal are painted, one goal in yellow,
 the other goal in blue.
 
 It is recommended that the blue be of a brighter shade so that it is different
