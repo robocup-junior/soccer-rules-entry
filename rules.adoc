@@ -452,8 +452,10 @@ The playing field is {~~219cm~>between 180 cm and 225 cm++} in depth.
 
 This allows for re-using existing equipment such as older RCJ soccer fields
 (122 cm by 183 cm, used to be called "Soccer A") which is recommended where
-available or FLL and regular RCJ Soccer fields to be temporarily converted
-with some temporary wooden walls. Teams should contact the organizers of
+available or FLL (236 cm, 221 cm with goals placed inside by 114 cm) and
+regular RCJ Soccer fields to be temporarily converted with some temporary
+wooden walls (219 cm x 158 cm with walls on lines). Teams should contact the
+organizers of
 their tournament about the exact dimensions used within the competition.
 
 [[field-walls]]
