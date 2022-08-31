@@ -221,7 +221,7 @@ kick-off from the team who was scored against.
 === Lack of progress
 
 Lack of progress occurs if there is no progress in the gameplay for a
-reasonable period of time and the situation is not likely to change.  Typical
+reasonable period of time and the situation is not likely to change. Typical
 lack of progress situations are when the ball is stuck between robots, when
 there is no change in ball and robot’s positions, or when the ball is beyond
 detection or reach capability of all robots on the field.
@@ -298,7 +298,7 @@ Each team member needs to carry a technical role.
 Each team must have a *captain*. The captain is the person responsible
 for communication with referees. The team can replace its captain
 with another team member during
-the competition. Team is allowed to have at most two members beside the
+the competition. Each team is allowed to have at most two members beside the
 field during game play: they will usually be the captain and an
 assistant team member.
 
@@ -532,7 +532,7 @@ line is part of the area.
 [[lighting-and-magnetic-conditions]]
 === Lighting and Magnetic Conditions
 
-The organizers will do their best to limit the amount of external lightning and
+The tournament organizers will do their best to limit the amount of external lightning and
 magnetic interference. However, the robots need to be constructed in a way
 which allows them to work in conditions that are not perfect (i.e. by not
 relying on compass sensors or specific lightning conditions).
@@ -557,8 +557,8 @@ See <<technical-specification-for-pulsed-soccer-ball>>.
 [[tournament-balls]]
 === Tournament balls
 
-Balls for the tournament must be made available by the organizers.  Organizers
-are not responsible for providing balls for practice.
+Balls for the tournament must be made available by the tournament organizers.
+Tournament organizers are not responsible for providing balls for practice.
 
 [[code-of-conduct]]
 == CODE OF CONDUCT
@@ -577,7 +577,7 @@ Robots are not allowed to cause damage to the field or to the ball during
 normal game play.
 
 A robot that causes damage may be disqualified from a specific match at the
-referee’s discretion. The OC will also be informed.
+tournament organizer's discretion. 
 
 Humans are not allowed to cause deliberate interference with robots or damage
 to the field or the ball.
@@ -593,7 +593,7 @@ is to be of a subdued nature within the tournament venue.
 
 Mentors (teachers, parents, chaperones, and other adult team-members including
 translators) are not allowed in the student work area unless it is explicitly
-but temporarily permitted by a member of the Organizing Committee. Only
+but temporarily permitted by tournament organizers. Only
 participating students are allowed to be inside the work area.
 
 *Mentors must not touch, build, repair, or program any robots.*
@@ -621,9 +621,9 @@ It is also possible to disqualify only single person or single robot from
 further participation in the tournament.
 
 In less severe cases of violations of the code of conduct, a team will be given
-a warning by showing it a yellow card. In severe or repeated cases of
+a warning. In severe or repeated cases of
 violations of the code of conduct a team can be disqualified immediately
-without a warning by showing it the red card.
+without a warning.
 
 [[conflict-resolution]]
 == CONFLICT RESOLUTION
@@ -655,7 +655,7 @@ members.
 === Rule clarification
 
 Rule clarification may be made by members of the tournament organizers
-Committee and Organizing Committee, if necessary even during a tournament.
+and the Soccer League Committee, if necessary even during a tournament.
 
 [[rule-modification]]
 === Rule modification
@@ -711,7 +711,7 @@ allowed.
 [[regulations-programming]]
 ==== Programming
 
-Robots must be programmed exclusively by student members of the team.  Mentors,
+Robots must be programmed exclusively by student members of the team. Mentors,
 teachers, parents or companies should not be involved in the programming and
 debugging of robots.
 
@@ -725,7 +725,7 @@ sample programs, not even if they are modified.
 ==== Inspections
 
 Robots must be inspected and certified every day before the first game is
-played. The Organizing Committee may request other inspections if necessary,
+played. The tournament organizers may request other inspections if necessary,
 including random inspections which may happen at any time. The routine
 inspections include:
 
@@ -749,16 +749,15 @@ tournament.
 
 Answering to the request for a soccer ball for RCJ tournaments that would be
 more robust to interfering lights, less energy consuming and mechanically more
-resistant, the RCJ Soccer League Committee defined the following technical
+resistant, the Soccer League Committee defined the following technical
 specifications with the special collaboration from EK Japan and HiTechnic.
 
 Producers of these balls must apply for a certification process upon which they
 can exhibit the RCJ-compliant label and their balls used in RCJ tournaments.
 
-Balls with these specifications can be detected using specific sensors from
-HiTechnic (IRSeeker - information on distance and angle) but also common IR
-remote control receivers (TSOP1140, TSOP31140, GP1UX511QS, etc.
-- on-off detection with a possible gross indication of distance).
+Balls with these specifications can be detected using specific sensors but
+also common IR remote control receivers (TSOP1140, TSOP31140, GP1UX511QS,
+etc. - on-off detection with a possible gross indication of distance).
 
 [[pulsed-specifications]]
 === Specifications
@@ -814,12 +813,12 @@ goals, or the field itself.
 [[official-suppliers-for-pulsed-balls]]
 === Official suppliers for pulsed balls
 
-Currently, there is one ball that has been approved by the RoboCupJunior
+Currently, there is one ball that has been approved by the
 Soccer League Committee:
 
-- RoboSoccer ball operating in MODE A (pulsed) made by EK Japan/Elekit (https://elekit.co.jp)
+- RoboSoccer ball operating in MODE A (pulsed) made by EK Japan/Elekit (https://elekit.co.jp/en/product/RCJ-05R)
 
-Note that this ball was previously called RCJ-05.  While you may not be able to
+Note that this ball was previously called RCJ-05. While you may not be able to
 find a ball with this name anymore, any IR ball produced by EK Japan/Elekit is
 considered to be approved by the Soccer League Committee.
 
