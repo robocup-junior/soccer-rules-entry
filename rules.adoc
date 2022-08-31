@@ -521,11 +521,8 @@ during kick-off.
 [[penalty-areas]]
 === Penalty areas
 
-In front of each goal there is a {~~25cm wide and 80cm long penalty area
-~>30 cm wide and 75 cm long penalty area~~}.
-
-The penalty areas are marked by a white line of 20 mm (±10%) width. The
-line is part of the area.
+In front of each goal there is a {{~~25cm wide and 80cm long penalty area
+~>penalty area (optional). It is decorative and serves no purpose in gameplay.~~}
 
 [[lighting-and-magnetic-conditions]]
 === Lighting and Magnetic Conditions
