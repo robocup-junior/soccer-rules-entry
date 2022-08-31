@@ -245,7 +245,6 @@ Some examples of a damaged robot include:
 
 * it does not respond to the ball, or is unable to move (it lost pieces,
 power, etc.).
-* it continually moves into the goal.
 * it turns over on its own accord.
 
 Computers and repair equipment are not permitted in the playing area during
@@ -349,7 +348,7 @@ The ball must not be absorbed by the robot, which is measured by a ball-capturin
 
 The ball-capturing zone is defined as any internal space created when a straight
 edge is placed on the protruding points of a robot. This means the ball must
-not enter the concave hull of a robot by more than 3 cm depth.
+not enter the convex hull of a robot by more than 3 cm depth.
 Furthermore, it must be possible for another robot to take possession of the
 ball.
 
@@ -411,10 +410,7 @@ A robot must touch the ball that is placed no further than 20 cm from any point
 on its convex hull within 10 seconds. If a robot does not do so within the time
 limit, it is deemed to be damaged. (See <<damaged-robots, Damaged Robots>>.)
 
-Robots must be constructed in a way that they do not enter the goal. Robots are
-allowed to use the cross-bar in order to avoid entering the goal. Any robot that
-moves into the goal 3 times during a period of 20 seconds is deemed to be damaged
-(see <<damaged-robots, Damaged Robots>>).
+{++ Robots may enter the goals. ++}
 
 [[handle]]
 === Handle
@@ -479,7 +475,10 @@ field. The goal inner space is {~~60 cm~>45 cm wide~~} and 74 mm deep. It is
 outside the playing field (submerged into the walls). The height of the goal
 is equal to the height of the walls.
 
-The interior walls and the of each goal are painted, one goal in yellow,
+{++The goal *may or may not have* a cross-bar on top.
+The size of the cross-bar is 2 +/- 1 cm in height.++}
+
+The interior walls and the crossbar of each goal are colored matte, one goal in yellow,
 the other goal in blue.
 
 It is recommended that the blue be of a brighter shade so that it is different
