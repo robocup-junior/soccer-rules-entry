@@ -448,7 +448,7 @@ However, this field type can vary in size.
 
 The playing field is {~~158cm~>between 110 cm and 160 cm~~} in width.
 
-The playing field is {~~219cm~>between 180 cm and 225 cm++} in depth.
+The playing field is {~~219cm~>between 180 cm and 225 cm~~} in depth.
 
 This allows for re-using existing equipment such as older RCJ soccer fields
 (122 cm by 183 cm, used to be called "Soccer A") which is recommended where
