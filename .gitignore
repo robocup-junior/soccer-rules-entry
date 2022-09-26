@@ -1,5 +1,5 @@
 *.idea
 *.iml
 tmp_*
-rules.html
-rules.pdf
+*.html
+*.pdf

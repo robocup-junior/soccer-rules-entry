@@ -1,4 +1,4 @@
-= RoboCupJunior Soccer Entry Lightweight Rules 2023
+= RoboCupJunior Soccer Entry Standard Kit Rules 2023
 {docdate}
 :toc: left
 :sectanchors:
@@ -31,9 +31,9 @@ https://junior.forum.robocup.org/t/2023-entry-league-draft-rules-public-discussi
 NOTE: This ruleset is not intended to be used at international level, except for super-regional
 tournaments.
 
-These are the RoboCupJunior Soccer Entry rules for the *1:1 Lightweight League*,
+These are the RoboCupJunior Soccer Entry rules for the *1:1 Standard Kit League*,
 proposed for suggested use by regional and super-regional tournaments in the
-2023 season. They are released by the RoboCupJunior League Committee.
+2023 season. They are released by the German Regional Committee.
 The English version of these rules has priority over any translations.
 
 The aim of this document is to provide an entry-level ruleset for RoboCupJunior Soccer
@@ -46,7 +46,7 @@ and contact details] regarding updates and changes to this ruleset specific to t
 location. Each team is responsible for verifying the correct and latest version
 of the rules prior to competition.
 
-[title="Two teams with one LWL robot each will compete using an IR ball
+[title="Two teams with one Standard Kit robot each will compete using an IR ball
 on RCJ Soccer fields without the out-area. There is no need for using camera
 vision or line detection. Photo: Andreas Lander"]
 image::media/smallfield_andreas_lander.jpg[]
@@ -57,7 +57,9 @@ image::media/smallfield_andreas_lander.jpg[]
 In the RoboCupJunior Soccer Entry challenge, teams of young engineers design, build,
 and program {~~two~>one~~} fully autonomous mobile robot to compete against
 another team in matches. The robots must detect a ball and score into a color-coded goal on
-a special field that resembles a human soccer field.
+a special field that resembles a human soccer field. There is a limited set of
+construction elements allowed for the construction, and the field is simplified
+compared to the international competition.
 
 To be successful, participants must demonstrate skill in programming, robotics,
 electronics and mechatronics. Teams are also expected to contribute to the
@@ -66,8 +68,9 @@ participants and by engaging in good sportsmanship, regardless of culture, age
 or result in the competition. *All are expected to compete, learn, have fun, and grow.*
 
 RoboCupJunior Soccer Entry rules are supplied by the Soccer League Committee
-for one entry-level league modeled after LWL. Some regions run and will probably
-continue to run an additional league restricted to standard kit components.
+for one entry-level league modeled after LWL. *This is not that document.* This
+is a separate ruleset for the Entrz Standard Kit release by the German Regional
+Committee.
 
 These rules are based on the international rulesets footnote:[see
 https://junior.robocup.org/soccer/]. Their main differences compared to those are:
@@ -77,6 +80,8 @@ reduces the complexity of robot construction and gameplay. Use of many existing
 fields is permissible with no or minor modifications due to flexible dimensions.
 * Each team starts *only one robot*
 * *The Ball* The league uses the same special ball that emits an IR signal that Light Weight League uses. Please see <<ball>> for balls specifications.
+* *The Robot Construction* is done using just a limited set of building elements from
+a standardized platform - namely Lego or Fischertechnik.
 
 Unless specified otherwise, all parts of these rules are released under the
 terms of the Creative Commons Attribution-ShareAlike License.
@@ -638,6 +643,22 @@ become a part of this ruleset.
 [[regulations]]
 === Regulations
 
+[[robots-construction]]
+==== Construction
+
+{++The size of the robot is limited to 22,4 cm by 22,4 cm by 22,4 cm. This corresponds to 28
+Lego studs. There is no weight limit for the robot.++}
+
+{++Only parts from the Lego system or the Fischertechnik system are allowed to build the robot.
+Only one processor brick per robot is allowed. A maximum of 4 motors and 4 sensors is
+allowed (no splitters). All commercial sensors from Lego or from Fischertechnik can be used.++}
+
+*Exception:* One compass sensor and one ball detector from external suppliers may be used.
+
+*Exception:* The handle can be of other material not included in the Lego or Fischertechnik system.
+If this is the case, the handle cannot be used to mount technical components of the robot.
+
+
 [[dimensions]]
 ==== Dimensions
 
@@ -657,9 +678,6 @@ TIP: [0] Robot must fit {++smoothly++} into a cylinder of this diameter
 TIP: [1] The handle of a robot may exceed the height.
 
 TIP: [2] The weight of the robot includes that of the handle.
-
-IMPORTANT: [3] We *strongly* encourage teams to include protection circuits for Lithium-based
-batteries
 
 NOTE: [4] Voltage limits relate to the *nominal values*, deviations at the
 power pack due to the fact that charged will be tolerated.
@@ -688,25 +706,6 @@ A robot may use any number of cameras without restrictions on lenses,
 optical parts, optical systems, and total field of view. Components may be
 sourced in any way the team sees fit.
 
-Voltage pump circuits are permitted only for a kicker drive. No voltage may
-exceed 48V at any time and maximum boost voltage must be available for
-demonstration and measurement at inspections. When not in use measurement
-contacts must be protected from accidental touches or short circuits. All
-other
-electrical circuits inside the robot cannot exceed
-12.0 V. Each robot must be designed to allow verifying
-the voltage of power packs and its circuits, unless the nominal voltage is
-obvious by looking at the robot, its power packs and connections.
-
-Pneumatic devices are allowed to use ambient air only.
-
-Kicker strength is subject to compliance check at any time during the
-competition. During gameplay, a referee can ask to see a sample kick on the
-field before each half when a damaged robot is returned to the field or when
-the game is about to be restarted after a goal. If the referee strongly
-suspects that a kicker exceeds the power limit, they can require an official
-measurement. See <<kicker-power-measuring>> for more details.
-
 [[regulations-construction]]
 ==== Construction
 
@@ -714,26 +713,8 @@ IMPORTANT: Robots must be constructed exclusively by the student members of a
 team. Mentors, teachers, parents or companies may not be involved in the
 design, construction, and assembly of robots.
 
-For the construction of a robot, any robot kit or building block may be used as
-long as the design and construction are primarily and substantially the
-original work of a team. This means that commercial kits may be used but must
-be substantially modified by the team. It is neither allowed to mainly follow a
-construction manual, nor to just change unimportant parts.
-
-Indications for violations are the use of commercial kits that can basically
-only be assembled in one way or the fact that robots from different team(s),
-build from the same commercial kit, all basically look or function the same.
-
 Robots must be constructed in a way that they can be started by the captain
 without the help of another person.
-
-Since a contact with an opponent robot and/or dribbler that might damage some
-parts of robots cannot be fully anticipated, *robots must have all its active
-elements properly protected with resistant materials*. For example, electrical
-circuits and pneumatic devices, such as pipelines and bottles, must be
-protected from all human contact and direct contact with other robots.
-
-IMPORTANT: All driven dribbler gears must be covered with metal or hard plastic.
 
 When batteries are transported or moved, it is *strongly* recommended that safety bags be
 used. Reasonable efforts should be made to make sure that in all circumstances
@@ -789,9 +770,10 @@ specifications with the special collaboration from EK Japan and HiTechnic.
 Producers of these balls must apply for a certification process upon which they
 can exhibit the RCJ-compliant label and their balls used in RCJ tournaments.
 
-Balls with these specifications can be detected using specific sensors but
-also common IR remote control receivers (TSOP1140, TSOP31140, GP1UX511QS,
-etc. - on-off detection with a possible gross indication of distance).
+Balls with these specifications can be detected using specific sensors from
+HiTechnic (IRSeeker - information on distance and angle) but also common IR
+remote control receivers (TSOP1140, TSOP31140, GP1UX511QS, etc.
+- on-off detection with a possible gross indication of distance).
 
 [[pulsed-specifications]]
 === Specifications
@@ -855,61 +837,3 @@ Soccer League Committee:
 Note that this ball was previously called RCJ-05. While you may not be able to
 find a ball with this name anymore, any IR ball produced by EK Japan/Elekit is
 considered to be approved by the Soccer League Committee.
-
-[[kicker-power-measure-preamble]]
-=== Soccer Entry Kicker Power Measurement Device
-
-This Kicker Power Measuring Device can measure the power of a robot’s kicker.
-It is easy to build with commonly accessible materials.
-
-This device can measure the power of a robot’s kicker up to a length of 22cm.
-
-image:media/image8.png[image,scaledwidth=100.0%]
-
-[[materials]]
-==== Materials
-
-|===
-|Plastic Board            | A4 paper size
-|M3 Spacers               | 5
-|M3 Screw                 | 10
-|===
-
-NOTE: The M3 spacers are different for each league, due to the different
-size of the ball. For the Lightweight league, please use **40mm** spacer and
-for the open league please use **25mm** spacer.
-
-[[device-schematics]]
-==== Device schematics
-
-The device schematics can be printed out from the diagram located at the end of
-the document. Please be advised to check that the software you use to print the
-schematic does not have a *scale to fit* option activated (i.e. check that it
-is configured to print at 100% or *actual size* scale).
-
-TIP: The device schematics shows a straight line past the 22cm mark, while the
-photo shows the line at that point to be curved. Either straight or curved
-lines are acceptable, but a curved line will request more difficult cutting and
-the attached device schematic is simple enough for quick construction.
-
-[[example-of-device-construction]]
-==== Example of device construction
-
-a.  Print out the device schematics.
-b.  Paste the paper on a plastic board. The incline line (red lines)
-    should be straight.
-c.  Cut out along the lines and drill the holes.
-d.  The two boards should be connected using the 40mm (Lightweight) or 25mm (Open) spacers.
-
-NOTE: You can find the image of the schematic at https://github.com/RoboCupJuniorTC/soccer-rules/blob/master/kicker_testing_schematics.png
-
-[[kicker-power-measuring]]
-==== Soccer Lightweight Kicker Power Measurement Procedure
-
-a.  Place a ball at the bottom of the ramp run of the device, and put the robot
-    in front of the ball, aiming the kicker towards the top of the ramp.
-b.  Activate the robot’s kicker for a single shot.
-c.  Measure the distance that the ball traveled on the device. The distance
-    should not exceed 22 cm.
-
-image:media/image9.png[image,scaledwidth=100.0%]
