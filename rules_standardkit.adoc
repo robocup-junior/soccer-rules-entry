@@ -655,6 +655,9 @@ allowed (no splitters). All commercial sensors from Lego or from Fischertechnik 
 
 *Exception:* One compass sensor and one ball detector from external suppliers may be used.
 
+*Exception:* Commercially available Camera systems and non-Lego/Non-Fischertechnik adapter cables
+may be used.
+
 *Exception:* The handle can be of other material not included in the Lego or Fischertechnik system.
 If this is the case, the handle cannot be used to mount technical components of the robot.
 
