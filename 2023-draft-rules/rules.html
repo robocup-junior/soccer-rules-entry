@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.17">
-<meta name="author" content="2022-09-04">
+<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="author" content="2022-10-19">
 <title>RoboCupJunior Soccer Entry Lightweight Rules 2023</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -85,10 +85,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1>RoboCupJunior Soccer Entry Lightweight Rules 2023</h1>
 <div class="details">
-<span id="author" class="author">2022-09-04</span><br>
+<span id="author" class="author">2022-10-19</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -474,38 +474,44 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#agility">4.4. Agility</a></li>
 <li><a href="#handle">4.5. Handle</a></li>
 <li><a href="#top-markers">4.6. Top Markers</a></li>
-<li><a href="#field-walls">4.7. Walls</a></li>
-<li><a href="#goals">4.8. Goals</a></li>
-<li><a href="#floor">4.9. Floor</a></li>
-<li><a href="#neutral-spots">4.10. Neutral spots</a></li>
-<li><a href="#center-circle">4.11. Center circle</a></li>
-<li><a href="#penalty-areas">4.12. Penalty areas</a></li>
-<li><a href="#lighting-and-magnetic-conditions">4.13. Lighting and Magnetic Conditions</a></li>
+<li><a href="#violations">4.7. Violations</a></li>
 </ul>
 </li>
-<li><a href="#ball">5. BALL</a>
+<li><a href="#field">5. FIELD</a>
 <ul class="sectlevel2">
-<li><a href="#specification-for-ball">5.1. Specification for Soccer Entry Ball</a></li>
-<li><a href="#tournament-balls">5.2. Tournament balls</a></li>
+<li><a href="#dimensions-of-the-field">5.1. Dimensions of the field</a></li>
+<li><a href="#field-walls">5.2. Walls</a></li>
+<li><a href="#goals">5.3. Goals</a></li>
+<li><a href="#floor">5.4. Floor</a></li>
+<li><a href="#neutral-spots">5.5. Neutral spots</a></li>
+<li><a href="#center-circle">5.6. Center circle</a></li>
+<li><a href="#penalty-areas">5.7. Penalty areas</a></li>
+<li><a href="#lighting-and-magnetic-conditions">5.8. Lighting and Magnetic Conditions</a></li>
 </ul>
 </li>
-<li><a href="#code-of-conduct">6. CODE OF CONDUCT</a>
+<li><a href="#ball">6. BALL</a>
 <ul class="sectlevel2">
-<li><a href="#fair-play">6.1. Fair Play</a></li>
-<li><a href="#behavior">6.2. Behavior</a></li>
-<li><a href="#help">6.3. Help</a></li>
-<li><a href="#sharing">6.4. Sharing</a></li>
-<li><a href="#spirit">6.5. Spirit</a></li>
-<li><a href="#violations-disqualification">6.6. Violations / Disqualification</a></li>
+<li><a href="#specification-for-ball">6.1. Specification for Soccer Entry Ball</a></li>
+<li><a href="#tournament-balls">6.2. Tournament balls</a></li>
 </ul>
 </li>
-<li><a href="#conflict-resolution">7. CONFLICT RESOLUTION</a>
+<li><a href="#code-of-conduct">7. CODE OF CONDUCT</a>
 <ul class="sectlevel2">
-<li><a href="#referee-and-referee-assistant">7.1. Referee and referee assistant</a></li>
-<li><a href="#rule-clarification">7.2. Rule clarification</a></li>
-<li><a href="#rule-modification">7.3. Rule modification</a></li>
-<li><a href="#regulatory-statutes">7.4. Regulatory statutes</a></li>
-<li><a href="#regulations">7.5. Regulations</a></li>
+<li><a href="#fair-play">7.1. Fair Play</a></li>
+<li><a href="#behavior">7.2. Behavior</a></li>
+<li><a href="#help">7.3. Help</a></li>
+<li><a href="#sharing">7.4. Sharing</a></li>
+<li><a href="#spirit">7.5. Spirit</a></li>
+<li><a href="#violations-disqualification">7.6. Violations / Disqualification</a></li>
+</ul>
+</li>
+<li><a href="#conflict-resolution">8. CONFLICT RESOLUTION</a>
+<ul class="sectlevel2">
+<li><a href="#referee-and-referee-assistant">8.1. Referee and referee assistant</a></li>
+<li><a href="#rule-clarification">8.2. Rule clarification</a></li>
+<li><a href="#rule-modification">8.3. Rule modification</a></li>
+<li><a href="#regulatory-statutes">8.4. Regulatory statutes</a></li>
+<li><a href="#regulations">8.5. Regulations</a></li>
 </ul>
 </li>
 <li><a href="#technical-specification-for-pulsed-soccer-ball">Appendix A: Technical Specification for pulsed Soccer Ball</a>
@@ -626,7 +632,7 @@ fields is permissible with no or minor modifications due to flexible dimensions.
 <p>Each team starts <strong>only one robot</strong></p>
 </li>
 <li>
-<p><strong>The Ball</strong> The league uses the same special ball that emits an IR signal that Light Weight League uses. Please see <a href="#ball">Rule 5, &#8220;BALL&#8221;</a> for balls specifications.</p>
+<p><strong>The Ball</strong> The league uses the same special ball that emits an IR signal that Light Weight League uses. Please see <a href="#ball">Rule 6, &#8220;BALL&#8221;</a> for balls specifications.</p>
 </li>
 </ul>
 </div>
@@ -667,19 +673,22 @@ fields is permissible with no or minor modifications due to flexible dimensions.
 <p><a href="#substitution-5">Changed "at most two robots" to "only one robot"</a></p>
 </li>
 <li>
-<p><a href="#substitution-6">Changed "A robot must have markings in order to be distinguished by the referee. " to " Top markers (as mentioned in the international rulesets) are not required.++}  [[violations]] === Violations  Robots that do not abide by these specifications/regulations are not allowed to play.  If violations are detected during a running game the team may be disqualified for that game.  If similar violations occur repeatedly, the team may be disqualified from the tournament.  [[field]] == FIELD  [[dimensions-of-the-field]] === Dimensions of the field  The playing field is {<sub>~158cm</sub>&gt;between 110 cm and 160 cm"</a></p>
+<p><a href="#substitution-6">Changed "A robot must have markings in order to be distinguished by the referee. " to " Top markers (as mentioned in the international rulesets) are not required."</a></p>
 </li>
 <li>
-<p><a href="#substitution-7">Changed "219cm" to "between 180 cm and 225 cm"</a></p>
+<p><a href="#substitution-7">Changed "158cm" to "between 110 cm and 160 cm"</a></p>
 </li>
 <li>
-<p><a href="#substitution-8">Changed "wall is 22cm" to "wall is between 10cm and 25cm"</a></p>
+<p><a href="#substitution-8">Changed "219cm" to "between 180 cm and 225 cm"</a></p>
 </li>
 <li>
-<p><a href="#substitution-9">Changed "60 cm" to "45 to 60 cm wide"</a></p>
+<p><a href="#substitution-9">Changed "wall is 22cm" to "wall is between 10cm and 25cm"</a></p>
 </li>
 <li>
-<p><a href="#substitution-10">Changed "25cm wide and 80cm long penalty area " to "penalty area (optional). It is decorative and serves no purpose in gameplay."</a></p>
+<p><a href="#substitution-10">Changed "60 cm" to "45 to 60 cm wide"</a></p>
+</li>
+<li>
+<p><a href="#substitution-11">Changed "25cm wide and 80cm long penalty area " to "penalty area (optional). It is decorative and serves no purpose in gameplay."</a></p>
 </li>
 </ul>
 </div>
@@ -704,8 +713,8 @@ participate in the Entry league(s) again.</p>
 team. Mentors, teachers, parents or companies should not be involved in the
 design, construction, assembly, programming or debugging of robots. To avoid
 possible disqualification, it is extremely important that
-teams abide by this league&#8217;s regulations, especially <a href="#regulations-construction">Rule 7.5.4, &#8220;Construction&#8221;</a>
-and <a href="#regulations-programming">Rule 7.5.5, &#8220;Programming&#8221;</a>, and all other competitor’s rules.</p>
+teams abide by this league&#8217;s regulations, especially <a href="#regulations-construction">Rule 8.5.4, &#8220;Construction&#8221;</a>
+and <a href="#regulations-programming">Rule 8.5.5, &#8220;Programming&#8221;</a>, and all other competitor’s rules.</p>
 </div>
 <div class="paragraph">
 <p>If in doubt, please consult with your Regional Representative before
@@ -728,7 +737,7 @@ in between the halves.</p>
 <div class="paragraph">
 <p>The game clock will run for the duration of the halves without stopping (except
 when a referee wants to consult another official). The game clock will be
-run by a referee or a referee assistant (see <a href="#referee-and-referee-assistant">Rule 7.1, &#8220;Referee and referee assistant&#8221;</a>
+run by a referee or a referee assistant (see <a href="#referee-and-referee-assistant">Rule 8.1, &#8220;Referee and referee assistant&#8221;</a>
 for more information on their roles).</p>
 </div>
 <div class="paragraph">
@@ -1064,13 +1073,40 @@ limit cannot be used to mount components of the robot.</p>
 <div class="sect2">
 <h3 id="top-markers"><a class="anchor" href="#top-markers"></a><a class="link" href="#top-markers">4.6. Top Markers</a></h3>
 <div id="substitution-6" class="paragraph">
-<p><span class="red">* Top markers (as mentioned in the international rulesets) are not required.++}  <a id="violations"></a> === Violations  Robots that do not abide by these specifications/regulations are not allowed to play.  If violations are detected during a running game the team may be disqualified for that game.  If similar violations occur repeatedly, the team may be disqualified from the tournament.  <a id="field"></a> == FIELD  <a id="dimensions-of-the-field"></a> === Dimensions of the field  The playing field is {<sub>~158cm</sub>&gt;between 110 cm and 160 cm*</span>
-<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup> in width.</p>
+<p><span class="red">* Top markers (as mentioned in the international rulesets) are not required.*</span>
+<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="violations"><a class="anchor" href="#violations"></a><a class="link" href="#violations">4.7. Violations</a></h3>
+<div class="paragraph">
+<p>Robots that do not abide by these specifications/regulations are not allowed to play.</p>
 </div>
 <div class="paragraph">
+<p>If violations are detected during a running game the team may be disqualified for
+that game.</p>
+</div>
+<div class="paragraph">
+<p>If similar violations occur repeatedly, the team may be disqualified from the
+tournament.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="field"><a class="anchor" href="#field"></a><a class="link" href="#field">5. FIELD</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="dimensions-of-the-field"><a class="anchor" href="#dimensions-of-the-field"></a><a class="link" href="#dimensions-of-the-field">5.1. Dimensions of the field</a></h3>
+<div class="paragraph">
 <p>The playing field is <a id="substitution-7"></a>
+<span class="red"><strong>between 110 cm and 160 cm</strong></span>
+<sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup> in width.</p>
+</div>
+<div class="paragraph">
+<p>The playing field is <a id="substitution-8"></a>
 <span class="red"><strong>between 180 cm and 225 cm</strong></span>
-<sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup> in depth.</p>
+<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup> in depth.</p>
 </div>
 <div class="paragraph">
 <p>This allows for re-using existing equipment such as older RCJ soccer fields
@@ -1083,11 +1119,11 @@ their tournament about the exact dimensions used within the competition.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="field-walls"><a class="anchor" href="#field-walls"></a><a class="link" href="#field-walls">4.7. Walls</a></h3>
+<h3 id="field-walls"><a class="anchor" href="#field-walls"></a><a class="link" href="#field-walls">5.2. Walls</a></h3>
 <div class="paragraph">
-<p>Walls are placed all around the field. The height of the <a id="substitution-8"></a>
+<p>Walls are placed all around the field. The height of the <a id="substitution-9"></a>
 <span class="red"><strong>wall is between 10cm and 25cm</strong></span>
-<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup>. A height of at least 14 cm is recommended. The walls are painted matte black.</p>
+<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnotedef_11" title="View footnote.">11</a>]</sup>. A height of at least 14 cm is recommended. The walls are painted matte black.</p>
 </div>
 <div id="addition-3" class="paragraph">
 <p><span class="red"><strong>The four corners of the field are flattened in order to make it easier for robots to retrieve the ball from a corner. The flat area is approx. 14cm in width.</strong></span></p>
@@ -1097,12 +1133,12 @@ their tournament about the exact dimensions used within the competition.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="goals"><a class="anchor" href="#goals"></a><a class="link" href="#goals">4.8. Goals</a></h3>
+<h3 id="goals"><a class="anchor" href="#goals"></a><a class="link" href="#goals">5.3. Goals</a></h3>
 <div class="paragraph">
 <p>The field has two goals, centered on each of the shorter sides of the playing
-field. The goal inner space is <a id="substitution-9"></a>
+field. The goal inner space is <a id="substitution-10"></a>
 <span class="red"><strong>45 to 60 cm wide</strong></span>
-<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnotedef_11" title="View footnote.">11</a>]</sup> and 74 mm deep. It is
+<sup class="footnote">[<a id="_footnoteref_12" class="footnote" href="#_footnotedef_12" title="View footnote.">12</a>]</sup> and 74 mm deep. It is
 outside the playing field (submerged into the walls). The height of the goal
 is equal to the height of the walls.</p>
 </div>
@@ -1119,7 +1155,7 @@ enough from the black exterior.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="floor"><a class="anchor" href="#floor"></a><a class="link" href="#floor">4.9. Floor</a></h3>
+<h3 id="floor"><a class="anchor" href="#floor"></a><a class="link" href="#floor">5.4. Floor</a></h3>
 <div class="paragraph">
 <p>The floor
 consists of green carpet ideally of darker shade on top of a hard level surface. Teams
@@ -1140,7 +1176,7 @@ field(s).</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="neutral-spots"><a class="anchor" href="#neutral-spots"></a><a class="link" href="#neutral-spots">4.10. Neutral spots</a></h3>
+<h3 id="neutral-spots"><a class="anchor" href="#neutral-spots"></a><a class="link" href="#neutral-spots">5.5. Neutral spots</a></h3>
 <div class="paragraph">
 <p>There are five neutral spots defined in the field. One is in the center of the
 field. The other four are adjacent to each corner, located 45 cm along the long
@@ -1150,7 +1186,7 @@ The neutral spots ought to be of circular shape measuring 1 cm in diameter.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="center-circle"><a class="anchor" href="#center-circle"></a><a class="link" href="#center-circle">4.11. Center circle</a></h3>
+<h3 id="center-circle"><a class="anchor" href="#center-circle"></a><a class="link" href="#center-circle">5.6. Center circle</a></h3>
 <div class="paragraph">
 <p>A center circle will be drawn on the field. It is 60 cm in diameter. It is a
 thin black marker line. It is there for Referees and Captains as guidance
@@ -1158,15 +1194,15 @@ during kick-off.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="penalty-areas"><a class="anchor" href="#penalty-areas"></a><a class="link" href="#penalty-areas">4.12. Penalty areas</a></h3>
+<h3 id="penalty-areas"><a class="anchor" href="#penalty-areas"></a><a class="link" href="#penalty-areas">5.7. Penalty areas</a></h3>
 <div class="paragraph">
-<p>In front of each goal there is a <a id="substitution-10"></a>
+<p>In front of each goal there is a <a id="substitution-11"></a>
 <span class="red"><strong>penalty area (optional). It is decorative and serves no purpose in gameplay.</strong></span>
-<sup class="footnote">[<a id="_footnoteref_12" class="footnote" href="#_footnotedef_12" title="View footnote.">12</a>]</sup></p>
+<sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="lighting-and-magnetic-conditions"><a class="anchor" href="#lighting-and-magnetic-conditions"></a><a class="link" href="#lighting-and-magnetic-conditions">4.13. Lighting and Magnetic Conditions</a></h3>
+<h3 id="lighting-and-magnetic-conditions"><a class="anchor" href="#lighting-and-magnetic-conditions"></a><a class="link" href="#lighting-and-magnetic-conditions">5.8. Lighting and Magnetic Conditions</a></h3>
 <div class="paragraph">
 <p>The tournament organizers will do their best to limit the amount of external lightning and
 magnetic interference. However, the robots need to be constructed in a way
@@ -1181,16 +1217,16 @@ relying on compass sensors or specific lightning conditions).</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="ball"><a class="anchor" href="#ball"></a><a class="link" href="#ball">5. BALL</a></h2>
+<h2 id="ball"><a class="anchor" href="#ball"></a><a class="link" href="#ball">6. BALL</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="specification-for-ball"><a class="anchor" href="#specification-for-ball"></a><a class="link" href="#specification-for-ball">5.1. Specification for Soccer Entry Ball</a></h3>
+<h3 id="specification-for-ball"><a class="anchor" href="#specification-for-ball"></a><a class="link" href="#specification-for-ball">6.1. Specification for Soccer Entry Ball</a></h3>
 <div class="paragraph">
 <p>See <a href="#technical-specification-for-pulsed-soccer-ball">Appendix A, <em>Technical Specification for pulsed Soccer Ball</em></a>.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="tournament-balls"><a class="anchor" href="#tournament-balls"></a><a class="link" href="#tournament-balls">5.2. Tournament balls</a></h3>
+<h3 id="tournament-balls"><a class="anchor" href="#tournament-balls"></a><a class="link" href="#tournament-balls">6.2. Tournament balls</a></h3>
 <div class="paragraph">
 <p>Balls for the tournament must be made available by the tournament organizers.
 Tournament organizers are not responsible for providing balls for practice.</p>
@@ -1199,10 +1235,10 @@ Tournament organizers are not responsible for providing balls for practice.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="code-of-conduct"><a class="anchor" href="#code-of-conduct"></a><a class="link" href="#code-of-conduct">6. CODE OF CONDUCT</a></h2>
+<h2 id="code-of-conduct"><a class="anchor" href="#code-of-conduct"></a><a class="link" href="#code-of-conduct">7. CODE OF CONDUCT</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="fair-play"><a class="anchor" href="#fair-play"></a><a class="link" href="#fair-play">6.1. Fair Play</a></h3>
+<h3 id="fair-play"><a class="anchor" href="#fair-play"></a><a class="link" href="#fair-play">7.1. Fair Play</a></h3>
 <div class="paragraph">
 <p>It is expected that the aim of all teams is to play a fair and clean game of
 robot soccer. It is expected that all robots will be built with consideration
@@ -1226,14 +1262,14 @@ to the field or the ball.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="behavior"><a class="anchor" href="#behavior"></a><a class="link" href="#behavior">6.2. Behavior</a></h3>
+<h3 id="behavior"><a class="anchor" href="#behavior"></a><a class="link" href="#behavior">7.2. Behavior</a></h3>
 <div class="paragraph">
 <p>All participants are expected to behave themselves. All movement and behavior
 is to be of a subdued nature within the tournament venue.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="help"><a class="anchor" href="#help"></a><a class="link" href="#help">6.3. Help</a></h3>
+<h3 id="help"><a class="anchor" href="#help"></a><a class="link" href="#help">7.3. Help</a></h3>
 <div class="paragraph">
 <p>Mentors (teachers, parents, chaperones, and other adult team-members including
 translators) are not allowed in the student work area unless it is explicitly
@@ -1245,7 +1281,7 @@ participating students are allowed to be inside the work area.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="sharing"><a class="anchor" href="#sharing"></a><a class="link" href="#sharing">6.4. Sharing</a></h3>
+<h3 id="sharing"><a class="anchor" href="#sharing"></a><a class="link" href="#sharing">7.4. Sharing</a></h3>
 <div class="paragraph">
 <p>The understanding that any technological and curricular developments should be
 shared among the RoboCup and RoboCupJunior participants after the tournament
@@ -1253,7 +1289,7 @@ has been a part of world RoboCup competitions.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="spirit"><a class="anchor" href="#spirit"></a><a class="link" href="#spirit">6.5. Spirit</a></h3>
+<h3 id="spirit"><a class="anchor" href="#spirit"></a><a class="link" href="#spirit">7.5. Spirit</a></h3>
 <div class="paragraph">
 <p>It is expected that all participants, students, mentors, and parents will
 respect the RoboCupJunior mission.</p>
@@ -1263,7 +1299,7 @@ respect the RoboCupJunior mission.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="violations-disqualification"><a class="anchor" href="#violations-disqualification"></a><a class="link" href="#violations-disqualification">6.6. Violations / Disqualification</a></h3>
+<h3 id="violations-disqualification"><a class="anchor" href="#violations-disqualification"></a><a class="link" href="#violations-disqualification">7.6. Violations / Disqualification</a></h3>
 <div class="paragraph">
 <p>Teams that violate the code of conduct may be disqualified from the tournament.
 It is also possible to disqualify only single person or single robot from
@@ -1279,10 +1315,10 @@ without a warning.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="conflict-resolution"><a class="anchor" href="#conflict-resolution"></a><a class="link" href="#conflict-resolution">7. CONFLICT RESOLUTION</a></h2>
+<h2 id="conflict-resolution"><a class="anchor" href="#conflict-resolution"></a><a class="link" href="#conflict-resolution">8. CONFLICT RESOLUTION</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="referee-and-referee-assistant"><a class="anchor" href="#referee-and-referee-assistant"></a><a class="link" href="#referee-and-referee-assistant">7.1. Referee and referee assistant</a></h3>
+<h3 id="referee-and-referee-assistant"><a class="anchor" href="#referee-and-referee-assistant"></a><a class="link" href="#referee-and-referee-assistant">8.1. Referee and referee assistant</a></h3>
 <div class="paragraph">
 <p>The referee is a person in charge of making decisions with regards to the game,
 according to these rules, and may be assisted by a referee assistant.</p>
@@ -1310,14 +1346,14 @@ organizers.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="rule-clarification"><a class="anchor" href="#rule-clarification"></a><a class="link" href="#rule-clarification">7.2. Rule clarification</a></h3>
+<h3 id="rule-clarification"><a class="anchor" href="#rule-clarification"></a><a class="link" href="#rule-clarification">8.2. Rule clarification</a></h3>
 <div class="paragraph">
 <p>Rule clarification may be made by members of the tournament organizers
 and the Soccer League Committee, if necessary even during a tournament.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="rule-modification"><a class="anchor" href="#rule-modification"></a><a class="link" href="#rule-modification">7.3. Rule modification</a></h3>
+<h3 id="rule-modification"><a class="anchor" href="#rule-modification"></a><a class="link" href="#rule-modification">8.3. Rule modification</a></h3>
 <div class="paragraph">
 <p>If special circumstances, such as unforeseen problems or capabilities of a
 robot occur, rules may be modified by the tournament organizers, if
@@ -1325,7 +1361,7 @@ necessary even during a tournament.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="regulatory-statutes"><a class="anchor" href="#regulatory-statutes"></a><a class="link" href="#regulatory-statutes">7.4. Regulatory statutes</a></h3>
+<h3 id="regulatory-statutes"><a class="anchor" href="#regulatory-statutes"></a><a class="link" href="#regulatory-statutes">8.4. Regulatory statutes</a></h3>
 <div class="paragraph">
 <p>Each RoboCupJunior competition may have its own regulatory statutes to define
 the procedure of the tournament (for example the SuperTeam system, game modes,
@@ -1334,9 +1370,9 @@ become a part of this rule.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="regulations"><a class="anchor" href="#regulations"></a><a class="link" href="#regulations">7.5. Regulations</a></h3>
+<h3 id="regulations"><a class="anchor" href="#regulations"></a><a class="link" href="#regulations">8.5. Regulations</a></h3>
 <div class="sect3">
-<h4 id="dimensions"><a class="anchor" href="#dimensions"></a><a class="link" href="#dimensions">7.5.1. Dimensions</a></h4>
+<h4 id="dimensions"><a class="anchor" href="#dimensions"></a><a class="link" href="#dimensions">8.5.1. Dimensions</a></h4>
 <div class="paragraph">
 <p>Robots will be measured in an upright position with all parts extended. A
 robot’s dimensions must not exceed the following limits:</p>
@@ -1441,7 +1477,7 @@ ball.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="regulations-inference"><a class="anchor" href="#regulations-inference"></a><a class="link" href="#regulations-inference">7.5.2. Infrared interference</a></h4>
+<h4 id="regulations-inference"><a class="anchor" href="#regulations-inference"></a><a class="link" href="#regulations-inference">8.5.2. Infrared interference</a></h4>
 <div class="paragraph">
 <p>Components designed to emit IR (e.g. ToF, LiDAR, IR distance sensors,
 IR LEDs/LASERs etc.) are not allowed and tournament organizers will require
@@ -1454,7 +1490,7 @@ reflect infrared light could be used as long as other robots are not affected.</
 </div>
 </div>
 <div class="sect3">
-<h4 id="regulations-limitations"><a class="anchor" href="#regulations-limitations"></a><a class="link" href="#regulations-limitations">7.5.3. Limitations</a></h4>
+<h4 id="regulations-limitations"><a class="anchor" href="#regulations-limitations"></a><a class="link" href="#regulations-limitations">8.5.3. Limitations</a></h4>
 <div class="paragraph">
 <p>A robot may use any number of cameras without restrictions on lenses,
 optical parts, optical systems, and total field of view. Components may be
@@ -1484,7 +1520,7 @@ measurement. See <a href="#kicker-power-measuring">[kicker-power-measuring]</a> 
 </div>
 </div>
 <div class="sect3">
-<h4 id="regulations-construction"><a class="anchor" href="#regulations-construction"></a><a class="link" href="#regulations-construction">7.5.4. Construction</a></h4>
+<h4 id="regulations-construction"><a class="anchor" href="#regulations-construction"></a><a class="link" href="#regulations-construction">8.5.4. Construction</a></h4>
 <div class="admonitionblock important">
 <table>
 <tr>
@@ -1554,7 +1590,7 @@ allowed.
 </div>
 </div>
 <div class="sect3">
-<h4 id="regulations-programming"><a class="anchor" href="#regulations-programming"></a><a class="link" href="#regulations-programming">7.5.5. Programming</a></h4>
+<h4 id="regulations-programming"><a class="anchor" href="#regulations-programming"></a><a class="link" href="#regulations-programming">8.5.5. Programming</a></h4>
 <div class="paragraph">
 <p>Robots must be programmed exclusively by student members of the team. Mentors,
 teachers, parents or companies should not be involved in the programming and
@@ -1569,7 +1605,7 @@ sample programs, not even if they are modified.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="regulations-inspections"><a class="anchor" href="#regulations-inspections"></a><a class="link" href="#regulations-inspections">7.5.6. Inspections</a></h4>
+<h4 id="regulations-inspections"><a class="anchor" href="#regulations-inspections"></a><a class="link" href="#regulations-inspections">8.5.6. Inspections</a></h4>
 <div class="paragraph">
 <p>Robots must be inspected and certified every day before the first game is
 played. The tournament organizers may request other inspections if necessary,
@@ -1579,13 +1615,13 @@ inspections include:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Weight restrictions (see <a href="#dimensions">Rule 7.5.1, &#8220;Dimensions&#8221;</a>).</p>
+<p>Weight restrictions (see <a href="#dimensions">Rule 8.5.1, &#8220;Dimensions&#8221;</a>).</p>
 </li>
 <li>
-<p>Robot dimensions (see <a href="#dimensions">Rule 7.5.1, &#8220;Dimensions&#8221;</a>).</p>
+<p>Robot dimensions (see <a href="#dimensions">Rule 8.5.1, &#8220;Dimensions&#8221;</a>).</p>
 </li>
 <li>
-<p>Voltage restrictions (see <a href="#dimensions">Rule 7.5.1, &#8220;Dimensions&#8221;</a> and <a href="#regulations-limitations">Rule 7.5.3, &#8220;Limitations&#8221;</a>).</p>
+<p>Voltage restrictions (see <a href="#dimensions">Rule 8.5.1, &#8220;Dimensions&#8221;</a> and <a href="#regulations-limitations">Rule 8.5.3, &#8220;Limitations&#8221;</a>).</p>
 </li>
 <li>
 <p>Kicker strength limits, if the robot has a kicker (see <a href="#kicker-power-measuring">[kicker-power-measuring]</a>).</p>
@@ -1856,21 +1892,24 @@ should not exceed 22 cm.</p>
 <a href="#_footnoteref_8">8</a>. In previous version this said "A robot must have markings in order to be distinguished by the referee. "
 </div>
 <div class="footnote" id="_footnotedef_9">
-<a href="#_footnoteref_9">9</a>. In previous version this said "219cm"
+<a href="#_footnoteref_9">9</a>. In previous version this said "158cm"
 </div>
 <div class="footnote" id="_footnotedef_10">
-<a href="#_footnoteref_10">10</a>. In previous version this said "wall is 22cm"
+<a href="#_footnoteref_10">10</a>. In previous version this said "219cm"
 </div>
 <div class="footnote" id="_footnotedef_11">
-<a href="#_footnoteref_11">11</a>. In previous version this said "60 cm"
+<a href="#_footnoteref_11">11</a>. In previous version this said "wall is 22cm"
 </div>
 <div class="footnote" id="_footnotedef_12">
-<a href="#_footnoteref_12">12</a>. In previous version this said "25cm wide and 80cm long penalty area "
+<a href="#_footnoteref_12">12</a>. In previous version this said "60 cm"
+</div>
+<div class="footnote" id="_footnotedef_13">
+<a href="#_footnoteref_13">13</a>. In previous version this said "25cm wide and 80cm long penalty area "
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-09-04 15:27:31 UTC
+Last updated 2022-10-19 20:29:17 UTC
 </div>
 </div>
 </body>
