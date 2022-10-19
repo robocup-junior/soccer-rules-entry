@@ -397,7 +397,7 @@ limit cannot be used to mount components of the robot.
 === Top Markers
 
 {~~A robot must have markings in order to be distinguished by the referee. ~>
-Top markers (as mentioned in the international rulesets) are not required.++}
+Top markers (as mentioned in the international rulesets) are not required.~~}
 
 [[violations]]
 === Violations
