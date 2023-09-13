@@ -1,4 +1,4 @@
-= RoboCupJunior Soccer Entry Rules 2022
+= RoboCupJunior Soccer Entry Lightweight Rules 2023
 {docdate}
 :toc: left
 :sectanchors:
@@ -17,39 +17,40 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the RoboCup Junior Soccer Entry rules for the *1:1 Standard Kit League*,
-proposed for the super-region of Europe for the 2022 season. They are
-released by the RoboCupJunior Soccer Community in coordination with the European RoboCupJunior Regional
-Representatives. The English version of these rules has priority over any translations.
+IMPORTANT: Regional and
+super-regional tournament organizers may use these rules, make changes
+specific to their regions or not run Entry leagues at all. Contact your
+regions or super-regions tournament organizers to find out which rules are
+going to be played at your tournament.
 
-The aim of this document is to provide an entry-level rule set for RCJ Soccer that is harmonized across countries in
-Europe and that may be referenced at European local and super-regional tournaments, as well as beyond Europe if needed.
-However, some sub-regions may have their own version of Soccer Entry rules. Teams are advised to check with their Local
-Organizing Committee and Regional Representative regarding updates and changes to this rule set specific to their
-location. Each team is responsible for verifying the correct and latest version of the rules prior to competition.
+NOTE: This ruleset is not intended to be used at international level, except for super-regional
+tournaments.
 
-[title="Two teams with one standard kit robot each will compete using an IR ball on RCJ Soccer fields without the out-area. There is no need for using camera vision or line detection. Photo: Andreas Lander"]
+
+These are the RoboCup Junior Soccer Entry rules for the *1:1 Lightweight League*,
+proposed for suggested use by regional and super-regional tournaments in the 
+2023 season. They are released by the RoboCup Junior League Committee. 
+The English version of these rules has priority over any translations.
+
+The aim of this document is to provide an entry-level ruleset for RoboCup Junior Soccer
+that is harmonized across regions and that may be used as-is or adapted to
+specific needs at regional and super-regional tournaments. Some regions
+already have their own, separate version of Soccer Entry rules. Teams are
+advised to check with the local tournament organizers and Regional
+Representative regarding updates and changes to this ruleset specific to their
+location. Each team is responsible for verifying the correct and latest version
+of the rules prior to competition.
+
+[title="Two teams with one LWL robot each will compete using an IR ball on RCJ Soccer fields without the out-area. There is no need for using camera vision or line detection. Photo: Andreas Lander"]
 image::media/smallfield_andreas_lander.jpg[]
-
-//IMPORTANT: *NOTE:* This is an early and unrevised draft of these rules. Do not share or redistribute!
-
-IMPORTANT: *NOTE*: This is a draft version of these rules, subject to change.
-
-NOTE: *NOTE*: This ruleset is not intended to be used at international level, except for super-regional
-tournaments in Europe.
-
-//NOTE: These are the Draft rules. Although they are still subject to change, the
-//TC expects the changes to be minimal and at mostly cosmetic.
 
 [discrete]
 == Preface
 
 In the RoboCupJunior Soccer Entry challenge, teams of young engineers design, build,
-and program {++one++} fully autonomous mobile robot to compete against another team
-in matches. The robots must detect a ball and score into a color-coded goal on
-a special field that resembles a human soccer field. There is a limited set of
-construction elements allowed for the construction, and the field is simplified
-compared to the international competition.
+and program {~~two~>one~~} fully autonomous mobile robot to compete against
+another team in matches. The robots must detect a ball and score into a color-coded goal on
+a special field that resembles a human soccer field.
 
 To be successful, participants must demonstrate skill in programming, robotics,
 electronics and mechatronics. Teams are also expected to contribute to the
@@ -57,30 +58,36 @@ advancement of the community as a whole by sharing their discoveries with other
 participants and by engaging in good sportsmanship, regardless of culture, age
 or result in the competition. *All are expected to compete, learn, have fun, and grow.*
 
-RoboCupJunior Soccer Entry contains rules for one entry-level league. They are based on
-the international rulesets. Their main differences compared to those are:
+RoboCupJunior Soccer Entry rules are supplied for one entry-level league modeled
+after LWL. Some regions run and will probably continue to run an additional league
+restricted to standard kit components.
 
-* *The Robot Construction* is done using just a limited set of building elements from
-a standardized Platform - namely Lego or fischertechnik.
+These rules are based on the international rulesets. Their main differences
+compared to those are:
 
-* *The Field* is based on the international field, but without the outer area which
-reduces the complexity of robot construction and gameplay.
-
-The league uses a special ball that emits an IR signal. Please see <<ball>> for balls
-specifications.
+* *The Field* has no out of bounds areas and gameplay may touch the walls. This
+reduces the complexity of robot construction and gameplay. Use of many existing
+fields is permissible with no or minor modifications due to flexible dimensions.
+* Each team starts *only one robot*
+* *The Ball* The league uses the same special ball that emits an IR signal that Light Weight League uses. Please see <<ball>> for balls specifications.
 
 [discrete]
+=== Detailled list of changes compared to regular soccer rules
+
+{+-~TOC-CHANGES~-+}
+
 === Competition Cap
 
 {++Team members can participate only twice++} in leagues played according to this
 RoboCupJunior Soccer Entry ruleset. After their second participation, they need to
 move on to the international RCJ Soccer leagues instead.
 footnote:[Some regions will have other entry leagues that may be exempt from this rule.
-Please refer to your local Organizing Committee in order to find out in which leagues
+Please refer to your local tournament organizers in order to find out in which leagues
 you may compete.]
 
-Team members that participated in the international RoboCupJunior Soccer leagues before
-may not participate in the entry league(s) again.
+Team members that participated in the international RoboCupJunior Soccer leagues
+at any level (local, regional, super-regional, international) before may not
+participate in the Entry league(s) again.
 
 [discrete]
 === Construction and Programming have to be performed exclusively by the students
@@ -88,7 +95,7 @@ may not participate in the entry league(s) again.
 Robots must be constructed and programmed exclusively by student members of the
 team. Mentors, teachers, parents or companies should not be involved in the
 design, construction, assembly, programming or debugging of robots. To avoid
-embarrassment and possible disqualification, it is extremely important that
+possible disqualification, it is extremely important that
 teams abide by this league's regulations, especially <<regulations-construction>>
 and <<regulations-programming>>, and all other competitor’s rules.
 
@@ -101,7 +108,7 @@ registering your team.
 [[game-procedure-and-length-of-a-game]]
 === Game procedure and length of a game
 
-RCJ Soccer games consist of two teams of {++one++} robot each, playing soccer against each
+RCJ Soccer games consist of two teams of {~~two~>one~~} robot each, playing soccer against each
 other. Each team has one autonomous robot. The game will consist of two
 halves. The duration of each half is 10-minutes. There will be a 5-minute break
 in between the halves.
@@ -113,17 +120,16 @@ for more information on their roles).
 
 Teams are expected to be at the field 5 minutes before their game starts. Being
 at the inspection table does not count in favor of this time limit. Teams that
-are late for the start of the game can be penalized one goal *per 30 seconds*
+are late for the start of the game may be penalized one goal *per 30 seconds*
 at the referee’s discretion.
 
-{~~When the goal difference reaches 10 the game finishes regardless of the
-state of the game clock.~>The final game score will be trimmed so that there is
-at most 10 goal difference between the losing and the winning team.~~}
+The final game score will be trimmed so that there is at most 10-goal
+difference between the losing and the winning team.
 
 [[pre-match-meeting]]
 === Pre-match meeting
 
-At the start of the first half of the game, a referee will toss a coin.  The
+At the start of the first half of the game, a referee will toss a coin. The
 team mentioned first in the draw shall call the coin. The winner of the toss
 can choose either which end to kick towards, or to kick off first. The loser of
 the toss chooses the other option. After the first half, teams switch sides.
@@ -148,7 +154,7 @@ The team not kicking off will now place their robot on the defensive end of
 the field. The robot on the team not kicking off must be at least 30 cm away
 from the ball (outside of the center circle).
 
-Robots cannot be placed behind the goal line. Robots cannot be
+Robots cannot be placed {~~out of bounds~>inside the goal~~}. Robots cannot be
 repositioned once they have been placed, except if the referee requests to
 adjust their placement to make sure that the robots are placed properly within
 the field positions.
@@ -175,7 +181,7 @@ small change: all robots must be at least 30 cm away from the ball
 
 Except for the kick-off, human interference from the teams (e.g. touching the
 robots) during the game is not allowed unless explicitly permitted by a
-referee. Violating team/team member(s) can be disqualified from the game.
+referee. Violating team(s)/team member(s) may be disqualified from the game.
 
 The referee or a referee assistant can help robots get unstuck if the ball is
 not being disputed near them and if the situation was created from normal
@@ -198,26 +204,28 @@ imparts dynamic back spin on the ball to keep the ball on its surface.
 
 Other players must be able to access the ball.
 
+The ball needs to stay within the bounds of the field, as defined by the
+walls. If a robot moves the ball outside of the field (that is, beyond the walls
+or above their height), it is deemed damaged. (<<damaged-robots>>)
 [[scoring]]
 === Scoring
 
 A goal is scored when the ball strikes or touches the back wall of the goal.
-Goals scored either by an attacking or defending robot have the same end
-result: they give one goal to the team on the opposite side.  After a goal, the
-game will be restarted with a kick-off from the team who was scored against.
+Goals scored by any robot have the same end result: they give one goal to the
+team on the opposite side. After a goal, the game will be restarted with a
+kick-off from the team who was scored against.
 
 [[lack-of-progress]]
 === Lack of progress
 
 Lack of progress occurs if there is no progress in the gameplay for a
-reasonable period of time and the situation is not likely to change.  Typical
+reasonable period of time and the situation is not likely to change. Typical
 lack of progress situations are when the ball is stuck between robots, when
 there is no change in ball and robot’s positions, or when the ball is beyond
 detection or reach capability of all robots on the field.
 
-After a visible and loud count footnote:[usually a count of three, the length of
-the count could be decided by the OC before a competition as long as it’s the
-same length within a sub-league], a referee will call "lack of progress" and
+After a visible and loud count footnote:[usually a count of three],
+a referee will call `*lack of progress*` and
 will move the ball to the nearest unoccupied neutral spot. If this does not
 solve the lack of progress, the referee can move the ball to a different
 neutral spot.
@@ -234,22 +242,19 @@ Some examples of a damaged robot include:
 
 * it does not respond to the ball, or is unable to move (it lost pieces,
 power, etc.).
-* it continually moves into the goal or out of the playing field.
 * it turns over on its own accord.
 
 Computers and repair equipment are not permitted in the playing area during
 gameplay. Usually, a team member will need to take the damaged robot to an
 "approved repair table" near the playing area. A referee may permit robot
 sensor calibration, computers and other tools in the playing area, only for the
-5 minutes before the start of each half.  Reprogramming of robots during the
-gameplay can only happen when they are out of game (i.e., damaged or out of
-bounds), or when explicitly allowed by the referee.
+5 minutes before the start of each half.
 
 After a robot has been fixed, it will be placed on the unoccupied neutral spot
 furthest from the ball, facing its own goal. A robot can only be returned to
 the field if the damage has been repaired. If the referee notices that the
-robot was returned to the field with the same original problem, s/he may ask
-the robot to be removed, and proceed with the game as if the robot had not been
+robot was returned to the field with the same original problem, they may ask
+the robot to be removed and proceed with the game as if the robot had not been
 returned.
 
 *Only the referee decides whether a robot is damaged.* A robot can only be
@@ -270,7 +275,7 @@ ball malfunctions and a replacement is not readily available.
 When the referee has stopped the game, all robots must be stopped and remain on
 the field untouched. The referee may decide whether the game will be
 continued/resumed from the situation in which the game was stopped or by a
-neutral kick-off.
+kick-off.
 
 [[team]]
 == TEAM
@@ -280,33 +285,38 @@ neutral kick-off.
 
 A team must have more than one member to form a RoboCupJunior team to
 participate in the competition. A team member(s) and/or robot(s) cannot
-be shared between teams. The maximum number of team members is defined by
-each local competition respectively.
+be shared between teams.
+The maximum number of team members is defined by each competition respectively,
+but is usually 4.
 
 Each team member needs to carry a technical role.
 
 Each team must have a *captain*. The captain is the person responsible
-for communication with referees. The team can replace its captain during
-the competition with another team member. Team is allowed to have at most two members beside the
-field during game play: they will usually be the captain and an
+for communication with referees. The team can replace its captain
+with another team member during
+the competition. Each team is allowed to have at most two members beside the
+field during gameplay: they will usually be the captain and an
 assistant team member.
-
 
 [[team-violations]]
 === Violations
 
 Teams that do not abide by the rules are not allowed to participate.
 
-Any person close to the playing field is not allowed to wear any yellow
-or blue clothes that can be seen by the robots (to avoid interference). A
-referee can require a team member to change clothes or to be replaced by
-another team member if interference is suspected.
+{~~Robots are expected to be
+capable of dealing with any colors above the walls (e.g. blue, yellow,
+green or orange shirts) either in hardware (e.g. limiting the field of view from looking up) or
+in software (e.g. masking the input image).~>Any person close to playing fields
+with walls lower than 22cm is not allowed to wear any yellow or blue clothes that
+can be seen by the robots (to avoid interference). A referee can require a team
+member to change clothes or to be replaced by another team member if interference
+is suspected.~~}
 
 The referee can interrupt a game in progress if any kind of interference from
 spectators is suspected (color clothing, IR emitters, camera flashes, mobile
 phones, radios, computers, etc.).
 
-This needs to be confirmed by an OC member if a claim is placed by the other
+This needs to be confirmed by the tournament organizers if a claim is placed by the other
 team. A team claiming that their robot is affected by colors has to show the
 proof/evidence of the interference.
 
@@ -317,62 +327,29 @@ image::media/image2.png[scaledwidth=35.0%]
 == ROBOTS
 
 [[number-of-robots-substitution]]
-=== Number of robots / substitution
+=== Number of robots / substitutions
 
-{++Each team is allowed to have only one robot for the full tournament.++}
-The substitution of this robot during the competition within the team or
+Each team is allowed to have {~~at most two robots~>only one robot~~} for the full tournament.
+The substitution of robots during the competition within the team or
 with other teams is forbidden.
-
-[[robots-construction]]
-=== Construction
-
-{++The size of the robot is limited to 22,4 cm by 22,4 cm by 22,4 cm. This corresponds to 28
-Lego studs. There is no weight limit for the robot.++}
-
-{++Only parts from the Lego system or the Fischertechnik system are allowed to build the robot.
-Only one processor brick per robot is allowed. A maximum of 4 motors and 4 sensors is
-allowed (no splitters). All commercial sensors from Lego or from Fischertechnik can be used.++}
-
-*Exception:* One compass sensor and one ball detector from external suppliers may be used.
-
-*Exception:* The handle can be of other material not included in the Lego or Fischertechnik system.
-If this is the case, the handle cannot be used to mount technical components of the robot.
-
-Top markers (as mentioned in the international rule sets) are not required.
-
-[[robots-ball]]
-=== Ball Capturing Zone
-
-The ball must not be absorbed by the robot, which is measured by a ball-capturing zone of 3 cm:
-
-The ball-capturing zone is defined as any internal space created when a straight
-edge is placed on the protruding points of a robot. This means the ball must
-not enter the concave hull of a robot by more than 3 cm depth.
-Furthermore, it must be possible for another robot to take possession of the
-ball.
 
 [[robots-interference]]
 === Interference
 
 Robots are not allowed to be colored yellow or blue in order to avoid
 interference. Yellow or blue colored parts used in the construction of
-a robot must either be occluded by other parts from the perception by another
+the robot must either be occluded by other parts from the perception by another
 robot or be taped/painted with a neutral color.
 
 Robots must not produce magnetic interference in another robot on the field.
 
-Robots must not produce visible or infrared light that may prevent the opposing team from
+Robots must not produce visible light that may prevent the opposing team from
 playing when placed on a flat surface. Any part of a robot that produces light
-that may interfere with the opposing robots vision system must be covered.
-
-Infrared light reflecting materials must also not be used on the
-outside. If robots are painted, they must be painted matte. Minor parts that
-reflect infrared light could be used as long as other robots are not
-affected.
+that may interfere with the opposing robot’s vision system must be covered.
 
 A team claiming that their robot is affected by the other team’s robot in any
 way must show the proof/evidence of the interference. Any interference needs to
-be confirmed by an OC member if a claim is placed by the other team.
+be confirmed by the tournament organizers if a claim is placed by the other team.
 
 [[robots-control]]
 === Control
@@ -380,16 +357,6 @@ be confirmed by an OC member if a claim is placed by the other team.
 The use of remote control of any kind is not allowed during the match. Robots
 must be started and stopped manually by humans and be controlled autonomously.
 
-[[communication]]
-=== Communication
-
-Robots are not allowed to use any kind of communication during game play unless
-the communication between two robots is via Bluetooth class 2 or class 3
-footnote:[range shorter than 20 meters] or via any other device that
-communicates using the 802.15.4 protocol (e.g., ZigBee and XBee).
-
-Teams are responsible for their communication. The availability of frequencies
-cannot be guaranteed.
 
 [[agility]]
 === Agility
@@ -404,67 +371,63 @@ their own goal, it must also move directly towards the ball in a forward
 movement. A robot must be able to seek and approach the ball
 anywhere on the field.
 
-A robot must touch the ball that is placed no further than 20 cm from any
-point on its convex hull within 10 seconds. If a robot does not do so within
-the time limit, it is deemed to be damaged. (See <<damaged-robots, Damaged Robots>>.)
+A robot must touch the ball that is placed no further than 20 cm from any point
+on its convex hull within 10 seconds. If a robot does not do so within the time
+limit, it is deemed to be damaged. (See <<damaged-robots, Damaged Robots>>.)
 
-Robots must be constructed in a way that they do not enter the goal.  Robots
-are allowed to use the cross-bar in order to avoid entering the goal. Any robot that
-moves into the goal 3 times during a period of 20 seconds is deemed to be damaged
-(see <<damaged-robots, Damaged Robots>>).
+{++ Robots may enter the goals. ++}
 
 [[handle]]
 === Handle
 
 All robots must have a stable and easily noticeable handle to hold and to lift
-them. The handle can be made out of other material not included in the Lego or Fischertechnik
-system. If this is the case, the handle cannot be used to mount technical components of the
-robot. The handle must be easily accessible and allow the robot to be picked up
-from *at least 5 cm above the highest structure* of the robot.
+them. The handle must be easily accessible and allow the robot to be picked up
+from at least 5 cm above the highest structure of the robot.
 
-The dimensions of the handle may exceed the 22 cm height limitation, but the
-part of the handle that exceeds this 22 cm limit cannot be used to mount
-components of the robot.
+The dimensions of the handle may exceed the robot height
+limitation, but the part of the handle that exceeds this
+limit cannot be used to mount components of the robot.
 
+[[top-markers]]
+=== Top Markers
+
+{~~A robot must have markings in order to be distinguished by the referee. ~>
+Top markers (as mentioned in the international rulesets) are not required.~~}
 
 [[violations]]
 === Violations
 
 Robots that do not abide by these specifications/regulations are not allowed to play.
 
-If violations are detected during a running game the team is disqualified for
+If violations are detected during a running game the team may be disqualified for
 that game.
 
-If similar violations occur repeatedly, the team can be disqualified from the
+If similar violations occur repeatedly, the team may be disqualified from the
 tournament.
 
 [[field]]
 == FIELD
 
-[[kind-of-field]]
-=== Kind of field
-
-There is only one kind of field for RoboCupJunior Soccer Entry leagues.
-However, this field type can vary in size.
-
 [[dimensions-of-the-field]]
 === Dimensions of the field
 
-The playing field is between {++110 cm and 125 cm++} in width.
+The playing field is {~~158cm~>between 110 cm and 160 cm~~} in width.
 
-The playing field is between {++180 cm and 195 cm++} in depth.
+The playing field is {~~219cm~>between 180 cm and 225 cm~~} in depth.
 
-This allows for re-using existing equipment such as older
-RCJ soccer fields (122 cm by 183 cm) which is recommended, or even FLL fields
-(114 cm in width). Teams should contact the organizers of their
-tournament about the exact dimensions used within the competition.
-
+This allows for re-using existing equipment such as older RCJ soccer fields
+(122 cm by 183 cm, used to be called "Soccer A") which is recommended where
+available or FLL (236 cm, 221 cm with goals placed inside by 114 cm) and
+regular RCJ Soccer fields to be temporarily converted with some temporary
+wooden walls (219 cm x 158 cm with walls on lines). Teams should contact the
+organizers of
+their tournament about the exact dimensions used within the competition.
 
 [[field-walls]]
 === Walls
 
-Walls are placed all around the field. The height of the walls is {++between 10 cm and 20 cm++}.
-A height of 14 cm is recommended. The walls are painted matte black.
+Walls are placed all around the field. The height of the {~~wall is 22cm~>wall is between
+10cm and 25cm~~}. A height of at least 14 cm is recommended. The walls are painted matte black.
 
 {++The four corners of the field are flattened in order to make it easier
 for robots to retrieve the ball from a corner. The flat area is approx. 14cm in width.++}
@@ -475,25 +438,37 @@ for robots to retrieve the ball from a corner. The flat area is approx. 14cm in 
 === Goals
 
 The field has two goals, centered on each of the shorter sides of the playing
-field. The goal inner space is {++45 cm wide and 74 mm deep.++} It is box shaped
-and outside the playing field (submerged into the walls). The height of the goal
+field. The goal inner space is {~~60 cm~>45 to 60 cm wide~~} and 74 mm deep. It is
+outside the playing field (submerged into the walls). The height of the goal
 is equal to the height of the walls.
 
-{++It has a cross-bar on top (to prevent robots from entering the goal).
+{++The goal *may or may not have* a cross-bar on top.
 The size of the cross-bar is 2 +/- 1 cm in height.++}
 
-The interior walls and the crossbar of each goal are painted, one goal in yellow,
+The interior walls and the crossbar of each goal are colored matte, one goal in yellow,
 the other goal in blue.
 
-It is recommended that the blue be of a brighter shade so that it is
-different enough from the black exterior.
+It is recommended that the blue be of a brighter shade so that it is different
+enough from the black exterior.
 
 [[floor]]
 === Floor
 
-The floor consists of dark green carpet on top of a hard level surface.  All
-straight lines on the field should be painted or fixed with strong adhesive tape,
-and have a width of 20 mm.
+The floor
+consists of green carpet ideally of darker shade on top of a hard level surface. Teams
+should be prepared to adjust to different levels of contrast between the green carpet
+and lines as some events may be restricted to using lighter shades of green. All
+lines on the field should be painted, marked with tape
+or installed as white carpet and be somewhat resistant to tearing or ripping.
+Lines should have a width of 20mm (±10%).
+
+It is impractical to set international constraints on carpet other than it
+being green. In the spirit of the competition, teams should design robots
+to be tolerant or adaptable to different fibers, textures, construction,
+density, shades and designs of carpet especially when competing amongst different
+regions. Teams are encouraged to visit regional resources or reach out to Local
+Organization Committee for suggestions if desiring to build their own practice
+field(s).
 
 [[neutral-spots]]
 === Neutral spots
@@ -514,28 +489,22 @@ during kick-off.
 [[penalty-areas]]
 === Penalty areas
 
-In front of each goal there is a {++30 cm wide and 75 cm++} long penalty
-area.
-
-The penalty areas are marked by {++a white line++} of 20 mm width. The
-line is part of the area.
+In front of each goal there is a {~~25cm wide and 80cm long penalty area
+~>penalty area (optional). It is decorative and serves no purpose in gameplay.~~}
 
 [[lighting-and-magnetic-conditions]]
 === Lighting and Magnetic Conditions
 
-The organizers will do their best to limit the amount of external lightning and
+The tournament organizers will do their best to limit the amount of external lightning and
 magnetic interference. However, the robots need to be constructed in a way
 which allows them to work in conditions that are not perfect (i.e. by not
 relying on compass sensors or specific lightning conditions).
 
 [discrete]
-[[field-diagram]]
-== FIELD DIAGRAM
+[[field-diagrams]]
+== FIELD DIAGRAMS
 
 image:media/smallfield-with-measures.png[image,scaledwidth=90.0%]
-
-
-
 
 [[ball]]
 == BALL
@@ -548,8 +517,8 @@ See <<technical-specification-for-pulsed-soccer-ball>>.
 [[tournament-balls]]
 === Tournament balls
 
-Balls for the tournament must be made available by the organizers.  Organizers
-are not responsible for providing balls for practice.
+Balls for the tournament must be made available by the tournament organizers.
+Tournament organizers are not responsible for providing balls for practice.
 
 [[code-of-conduct]]
 == CODE OF CONDUCT
@@ -562,13 +531,13 @@ robot soccer. It is expected that all robots will be built with consideration
 to other participants.
 
 Robots are not allowed to cause deliberate interference with or damage to other
-robots during normal game play.
+robots during normal gameplay.
 
 Robots are not allowed to cause damage to the field or to the ball during
-normal game play.
+normal gameplay.
 
 A robot that causes damage may be disqualified from a specific match at the
-referee’s discretion. The OC will also be informed.
+tournament organizer's discretion. 
 
 Humans are not allowed to cause deliberate interference with robots or damage
 to the field or the ball.
@@ -584,7 +553,7 @@ is to be of a subdued nature within the tournament venue.
 
 Mentors (teachers, parents, chaperones, and other adult team-members including
 translators) are not allowed in the student work area unless it is explicitly
-but temporarily permitted by a member of the Organizing Committee. Only
+but temporarily permitted by tournament organizers. Only
 participating students are allowed to be inside the work area.
 
 *Mentors must not touch, build, repair, or program any robots.*
@@ -604,61 +573,17 @@ respect the RoboCupJunior mission.
 
 *_It is not whether you win or lose, but how much you learn that counts!_*
 
-[[original-work]]
-=== Original Work
-
-[[regulations-construction]]
-==== Construction
-
-For the construction of a robot, {++LEGO and Fischertechnik system++} may be used
-as long as the design and construction are primarily and substantially the
-original work of a team. This means that commercial LEGO and Fischertechnik kits
-may be used but must be substantially modified by the team. It is neither allowed
-to mainly follow a construction manual, nor to just change unimportant parts.
-
-Robots must be constructed in a way that they can be started by the captain
-without the help of another person.
-
-IMPORTANT: Robots must be constructed exclusively by the student members of a
-team. Mentors, teachers, parents or companies may not be involved in the
-design, construction, and assembly of robots.
-
-[[regulations-programming]]
-==== Programming
-
-Robots must be programmed exclusively by student members of the team.  Mentors,
-teachers, parents or companies should not be involved in the programming and
-debugging of robots.
-
-For the programming of the robots, any programming language, interface or
-integrated development environment (IDE) may be used. The use of programs that
-come together with a commercial kit (especially sample programs or presets) or
-substantial parts of such programs are not allowed. It is not allowed to use
-sample programs, not even if they are modified.
-
-[[regulations-inspections]]
-=== Inspections
-
-Robots must be inspected and certified every day before the first game is
-played. The Organizing Committee may request other inspections if necessary,
-including random inspections which may happen at any time.
-
-Proof must be provided by each team that its robots comply with the
-regulations, for example, by a detailed documentation or log book. Teams may be
-interviewed about their robots and the development process at any time during a
-tournament.
-
 [[violations-disqualification]]
 === Violations / Disqualification
 
-Teams that violate the code of conduct can be disqualified from the tournament.
+Teams that violate the code of conduct may be disqualified from the tournament.
 It is also possible to disqualify only single person or single robot from
 further participation in the tournament.
 
 In less severe cases of violations of the code of conduct, a team will be given
-a warning by showing it a yellow card. In severe or repeated cases of
-violations of the code of conduct a team can be disqualified immediately
-without a warning by showing it the red card.
+a warning. In severe or repeated cases of
+violations of the code of conduct a team may be disqualified immediately
+without a warning.
 
 [[conflict-resolution]]
 == CONFLICT RESOLUTION
@@ -678,27 +603,26 @@ immediate disqualification from the game.
 
 Only the captain has a mandate to freely speak to the referee and/or their
 assistant. Shouting at a referee and/or their assistant, as well as demanding a
-change in ruling can be directly penalized by a warning at the referee’s
+change in ruling may be penalized by a warning at the referee’s
 discretion.
 
 At the conclusion of the game, the result recorded in the scoresheet is final.
 The referee will ask the captains to add written comments to the scoresheet if
-they consider them necessary. These comments will be reviewed by the OC
-members.
+they consider them necessary. These comments will be reviewed by the tournament
+organizers.
 
 [[rule-clarification]]
 === Rule clarification
 
-Rule clarification may be made by members of the RoboCupJunior Soccer Technical
-Committee and Organizing Committee, if necessary even during a tournament.
+Rule clarification may be made by members of the tournament organizers
+and the Soccer League Committee, if necessary even during a tournament.
 
 [[rule-modification]]
 === Rule modification
 
 If special circumstances, such as unforeseen problems or capabilities of a
-robot occur, rules may be modified by the RoboCupJunior Soccer Organizing
-Committee Chair in conjunction with available Technical Committee and
-Organizing Committee members, if necessary even during a tournament.
+robot occur, rules may be modified by the tournament organizers, if
+necessary even during a tournament.
 
 [[regulatory-statutes]]
 === Regulatory statutes
@@ -708,11 +632,147 @@ the procedure of the tournament (for example the SuperTeam system, game modes,
 the inspection of robots, interviews, schedules, etc.). Regulatory statutes
 become a part of this rule.
 
+[[regulations]]
+=== Regulations
+
+[[dimensions]]
+==== Dimensions
+
+Robots will be measured in an upright position with all parts extended. A
+robot’s dimensions must not exceed the following limits:
+
+|===
+|size ^[0]^ | 22.0 cm +
+|height | 22.0 cm ^[1]^ +
+|weight | 1100 g ^[2]^ +
+|ball-capturing zone | 3.0 cm +
+|voltage | 12.0 V ^[3]^ ^[4]^ +
+|===
+
+TIP: [0] Robot must fit {++smoothly++} into a cylinder of this diameter
+
+TIP: [1] The handle of a robot may exceed the height.
+
+TIP: [2] The weight of the robot includes that of the handle.
+
+IMPORTANT: [3] We *strongly* encourage teams to include protection circuits for Lithium-based
+batteries
+
+NOTE: [4] Voltage limits relate to the *nominal values*, deviations at the
+power pack due to the fact that charged will be tolerated.
+
+Ball-capturing zone is defined as any internal space created when a straight
+edge is placed on the protruding points of a robot. This means the ball must
+not enter the convex hull of a robot by more than the specified depth.
+Furthermore, it must be possible for another robot to take possession of the
+ball.
+
+.Think of the convex hull requirement as a rubber band that must fit around all points of the robot, i.e. the ball may not go inside the convex hull (red line) more than allowed
+image::media/Convex_Hull_Robot.png[scaledwidth=80%]
 
 
+[[regulations-inference]]
+==== Infrared interference
 
+Components designed to emit IR (e.g. ToF, LiDAR, IR distance sensors,
+IR LEDs/LASERs etc.) are not allowed and tournament organizers will require
+such devices to be removed or covered up.
 
+Infrared light reflecting materials must not be visible.
+If robots are painted, they must be painted matte. Minor parts that
+reflect infrared light could be used as long as other robots are not affected.
 
+[[regulations-limitations]]
+==== Limitations
+
+A robot may use any number of cameras without restrictions on lenses,
+optical parts, optical systems, and total field of view. Components may be
+sourced in any way the team sees fit.
+
+Voltage pump circuits are permitted only for a kicker drive. No voltage may
+exceed 48V at any time and maximum boost voltage must be available for 
+demonstration and measurement at inspections. When not in use measurement
+contacts must be protected from accidental touches or short circuits. All 
+other
+electrical circuits inside the robot cannot exceed
+12.0 V. Each robot must be designed to allow verifying
+the voltage of power packs and its circuits, unless the nominal voltage is
+obvious by looking at the robot, its power packs and connections.
+
+Pneumatic devices are allowed to use ambient air only.
+
+Kicker strength is subject to compliance check at any time during the
+competition. During gameplay, a referee can ask to see a sample kick on the
+field before each half when a damaged robot is returned to the field or when
+the game is about to be restarted after a goal. If the referee strongly
+suspects that a kicker exceeds the power limit, they can require an official
+measurement. See <<kicker-power-measuring>> for more details.
+
+[[regulations-construction]]
+==== Construction
+
+IMPORTANT: Robots must be constructed exclusively by the student members of a
+team. Mentors, teachers, parents or companies may not be involved in the
+design, construction, and assembly of robots.
+
+For the construction of a robot, any robot kit or building block may be used as
+long as the design and construction are primarily and substantially the
+original work of a team. This means that commercial kits may be used but must
+be substantially modified by the team. It is neither allowed to mainly follow a
+construction manual, nor to just change unimportant parts.
+
+Indications for violations are the use of commercial kits that can basically
+only be assembled in one way or the fact that robots from different team(s),
+build from the same commercial kit, all basically look or function the same.
+
+Robots must be constructed in a way that they can be started by the captain
+without the help of another person.
+
+Since a contact with an opponent robot and/or dribbler that might damage some
+parts of robots cannot be fully anticipated, *robots must have all its active
+elements properly protected with resistant materials*. For example, electrical
+circuits and pneumatic devices, such as pipelines and bottles, must be
+protected from all human contact and direct contact with other robots.
+
+IMPORTANT: All driven dribbler gears must be covered with metal or hard plastic.
+
+When batteries are transported or moved, it is *strongly* recommended that safety bags be
+used. Reasonable efforts should be made to make sure that in all circumstances
+robots avoid short-circuits and chemical or air leaks.
+
+IMPORTANT: The use of swollen, tattered or otherwise dangerous battery is not
+allowed.
+
+[[regulations-programming]]
+==== Programming
+
+Robots must be programmed exclusively by student members of the team. Mentors,
+teachers, parents or companies should not be involved in the programming and
+debugging of robots.
+
+For the programming of the robots, any programming language, interface or
+integrated development environment (IDE) may be used. The use of programs that
+come together with a commercial kit (especially sample programs or presets) or
+substantial parts of such programs are not allowed. It is not allowed to use
+sample programs, not even if they are modified.
+
+[[regulations-inspections]]
+==== Inspections
+
+Robots must be inspected and certified every day before the first game is
+played. The tournament organizers may request other inspections if necessary,
+including random inspections which may happen at any time. The routine
+inspections include:
+
+* Weight restrictions (see <<dimensions>>).
+* Robot dimensions (see <<dimensions>>).
+* Voltage restrictions (see <<dimensions>> and <<regulations-limitations>>).
+* Kicker strength limits, if the robot has a kicker (see <<kicker-power-measuring>>).
+
+Proof must be provided by each team that its robots comply with these
+regulations, for example, by a detailed documentation or logbook. Teams may be
+interviewed about their robots and the development process at any time during a
+tournament.
 
 
 [appendix]
@@ -724,16 +784,15 @@ become a part of this rule.
 
 Answering to the request for a soccer ball for RCJ tournaments that would be
 more robust to interfering lights, less energy consuming and mechanically more
-resistant, the RCJ Soccer Technical Committee defined the following technical
+resistant, the Soccer League Committee defined the following technical
 specifications with the special collaboration from EK Japan and HiTechnic.
 
 Producers of these balls must apply for a certification process upon which they
 can exhibit the RCJ-compliant label and their balls used in RCJ tournaments.
 
-Balls with these specifications can be detected using specific sensors from
-HiTechnic (IRSeeker - information on distance and angle) but also common IR
-remote control receivers (TSOP1140, TSOP31140, GP1UX511QS, etc.
-- on-off detection with a possible gross indication of distance).
+Balls with these specifications can be detected using specific sensors but
+also common IR remote control receivers (TSOP1140, TSOP31140, GP1UX511QS,
+etc. - on-off detection with a possible gross indication of distance).
 
 [[pulsed-specifications]]
 === Specifications
@@ -742,8 +801,8 @@ remote control receivers (TSOP1140, TSOP31140, GP1UX511QS, etc.
 ==== IR light
 
 The ball emits infra-red (IR) light of wavelengths in the range 920nm - 960nm,
-pulsed at a square-wave carrier frequency of 40 KHz. The ball should have
-enough ultra-bright, wide angle LEDs to minimize unevenness of the IR output.
+pulsed at a square-wave carrier frequency of 40 kHz. The ball should have
+enough ultra-bright, wide-angle LEDs to minimize unevenness of the IR output.
 
 [[pulsed-diameter]]
 ==== Diameter
@@ -754,14 +813,14 @@ used.
 [[pulsed-drop-test]]
 ==== Drop Test
 
-The ball must be able to resist normal game play. As an indication of its
+The ball must be able to resist normal gameplay. As an indication of its
 durability, it should be able to survive, undamaged, a free-fall from 1.5
 meters onto a hardwood table or floor.
 
 [[pulsed-modulation]]
 ==== Modulation
 
-The 40 KHz carrier output of the ball shall be modulated with a trapezoidal
+The 40 kHz carrier output of the ball shall be modulated with a trapezoidal
 (stepped) waveform of frequency 1.2 kHz. Each 833-microsecond cycle of the
 modulation waveform shall comprise 8 carrier pulses at full intensity, followed
 (in turn) by 4 carrier pulses at 1/4 of full intensity, four pulses at 1/16 of
@@ -789,11 +848,69 @@ goals, or the field itself.
 [[official-suppliers-for-pulsed-balls]]
 === Official suppliers for pulsed balls
 
-Currently, there is one ball that has been approved by the RoboCupJunior
-Soccer Technical Committee:
+Currently, there is one ball that has been approved by the
+Soccer League Committee:
 
-- RoboSoccer ball operating in MODE A (pulsed) made by EK Japan/Elekit (https://elekit.co.jp)
+- RoboCup Junior Soccer ball operating in MODE A (pulsed) made by EK Japan/Elekit (https://elekit.co.jp/en/product/RCJ-05R)
 
-Note that this ball was previously called RCJ-05.  While you may not be able to
+Note that this ball was previously called RCJ-05. While you may not be able to
 find a ball with this name anymore, any IR ball produced by EK Japan/Elekit is
-considered to be approved by the TC.
+considered to be approved by the Soccer League Committee.
+
+[[kicker-power-measure-preamble]]
+=== Soccer Entry Kicker Power Measurement Device
+
+This Kicker Power Measuring Device can measure the power of a robot’s kicker.
+It is easy to build with commonly accessible materials.
+
+This device can measure the power of a robot’s kicker up to a length of 22cm.
+
+image:media/image8.png[image,scaledwidth=100.0%]
+
+[[materials]]
+==== Materials
+
+|===
+|Plastic Board            | A4 paper size
+|M3 Spacers               | 5
+|M3 Screw                 | 10
+|===
+
+NOTE: The M3 spacers are different for each league, due to the different
+size of the ball. For the Lightweight league, please use **40mm** spacer and
+for the open league please use **25mm** spacer.
+
+[[device-schematics]]
+==== Device schematics
+
+The device schematics can be printed out from the diagram located at the end of
+the document. Please be advised to check that the software you use to print the
+schematic does not have a *scale to fit* option activated (i.e. check that it
+is configured to print at 100% or *actual size* scale).
+
+TIP: The device schematics shows a straight line past the 22cm mark, while the
+photo shows the line at that point to be curved. Either straight or curved
+lines are acceptable, but a curved line will request more difficult cutting and
+the attached device schematic is simple enough for quick construction.
+
+[[example-of-device-construction]]
+==== Example of device construction
+
+a.  Print out the device schematics.
+b.  Paste the paper on a plastic board. The incline line (red lines)
+    should be straight.
+c.  Cut out along the lines and drill the holes.
+d.  The two boards should be connected using the 40mm (Lightweight) or 25mm (Open) spacers.
+
+NOTE: You can find the image of the schematic at https://github.com/RoboCupJuniorTC/soccer-rules/blob/master/kicker_testing_schematics.png
+
+[[inspection]]
+==== Soccer Lightweight Kicker Power Measurement Procedure
+
+a.  Place a ball at the bottom of the ramp run of the device, and put the robot
+    in front of the ball, aiming the kicker towards the top of the ramp.
+b.  Activate the robot’s kicker for a single shot.
+c.  Measure the distance that the ball traveled on the device. The distance
+    should not exceed 22 cm.
+
+image:media/image9.png[image,scaledwidth=100.0%]
