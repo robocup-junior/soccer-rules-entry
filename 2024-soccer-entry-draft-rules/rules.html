@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.20">
-<meta name="author" content="2023-09-13">
-<title>RoboCupJunior Soccer Entry Lightweight Rules 2023</title>
+<meta name="author" content="2023-12-03">
+<title>RoboCupJunior Soccer Entry Rules 2024</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -436,14 +436,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>RoboCupJunior Soccer Entry Lightweight Rules 2023</h1>
+<h1>RoboCupJunior Soccer Entry Rules 2024</h1>
 <div class="details">
-<span id="author" class="author">2023-09-13</span><br>
+<span id="author" class="author">2023-12-03</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_differences_to_22_league_rulesets">1. Differences to 2:2 League rulesets</a>
 <ul class="sectlevel2">
-<li><a href="#_competition_cap">1. Competition Cap</a></li>
+<li><a href="#_both_11_leagues">1.1. Both 1:1 Leagues</a></li>
+<li><a href="#competition-cap">1.2. Competition Cap</a></li>
+</ul>
+</li>
 <li><a href="#gameplay">2. GAMEPLAY</a>
 <ul class="sectlevel2">
 <li><a href="#game-procedure-and-length-of-a-game">2.1. Game procedure and length of a game</a></li>
@@ -516,9 +521,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#pulsed-preamble">A.1. Preamble</a></li>
 <li><a href="#pulsed-specifications">A.2. Specifications</a></li>
 <li><a href="#official-suppliers-for-pulsed-balls">A.3. Official suppliers for pulsed balls</a></li>
-<li><a href="#kicker-power-measure-preamble">A.4. Soccer Entry Kicker Power Measurement Device</a></li>
 </ul>
 </li>
+<li><a href="#kicker-power-measuring">Appendix B: Kicker Power Measuring Procedures</a></li>
 </ul>
 </div>
 </div>
@@ -557,14 +562,15 @@ tournaments.
 </table>
 </div>
 <div class="paragraph">
-<p>These are the RoboCup Junior Soccer Entry rules for the <strong>1:1 Lightweight League</strong>,
+<p>These are the RoboCup Junior Soccer Entry rules for the <strong>1:1 Lightweight League</strong>
+and <strong>1:1 Standard Kit League</strong>
 proposed for suggested use by regional and super-regional tournaments in the
-2023 season. They are released by the RoboCup Junior League Committee.
+2024 season. They are released by the RoboCup Junior League Committee.
 The English version of these rules has priority over any translations.</p>
 </div>
 <div class="paragraph">
-<p>The aim of this document is to provide an entry-level ruleset for RoboCup Junior Soccer
-that is harmonized across regions and that may be used as-is or adapted to
+<p>The aim of this document is to provide entry-level rulesets for RoboCup Junior Soccer
+that are harmonized across regions and that may be used as-is or adapted to
 specific needs at regional and super-regional tournaments. Some regions
 already have their own, separate version of Soccer Entry rules. Teams are
 advised to check with the local tournament organizers and Regional
@@ -581,9 +587,7 @@ of the rules prior to competition.</p>
 <h2 id="_preface" class="discrete">Preface</h2>
 <div class="paragraph">
 <p>In the RoboCupJunior Soccer Entry challenge, teams of young engineers design, build,
-and program <a id="substitution-1"></a>
-<span class="red"><strong>one</strong></span>
-<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup> fully autonomous mobile robot to compete against
+and program one fully autonomous mobile robot to compete against
 another team in matches. The robots must detect a ball and score into a color-coded goal on
 a special field that resembles a human soccer field.</p>
 </div>
@@ -595,97 +599,112 @@ participants and by engaging in good sportsmanship, regardless of culture, age
 or result in the competition. <strong>All are expected to compete, learn, have fun, and grow.</strong></p>
 </div>
 <div class="paragraph">
-<p>RoboCupJunior Soccer Entry rules are supplied for one entry-level league modeled
-after LWL. Some regions run and will probably continue to run an additional league
-restricted to standard kit components.</p>
+<p>RoboCupJunior Soccer Entry rules are supplied for two entry-level.
+<strong>1:1 Lightweight League</strong> leagues modelled after LWL but reduced to one robot
+and restricted to at most three driving motors and <strong>1:1 Standard Kit League</strong>
+further restricted to two driving motors and restricted to a list of similarly
+powered motors (see <a href="#motor-whitelist">[motor-whitelist]</a>).</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_differences_to_22_league_rulesets"><a class="anchor" href="#_differences_to_22_league_rulesets"></a><a class="link" href="#_differences_to_22_league_rulesets">1. Differences to 2:2 League rulesets</a></h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>These rules are based on the international rulesets. Their main differences
+<p>These rules are based on the 2:2 rulesets. Their main differences
 compared to those are:</p>
 </div>
+<div class="sect2">
+<h3 id="_both_11_leagues"><a class="anchor" href="#_both_11_leagues"></a><a class="link" href="#_both_11_leagues">1.1. Both 1:1 Leagues</a></h3>
 <div class="ulist">
 <ul>
 <li>
 <p><strong>The Field</strong> has no out of bounds areas and gameplay may touch the walls. This
 reduces the complexity of robot construction and gameplay. Use of many existing
-fields is permissible with no or minor modifications due to flexible dimensions.</p>
+fields is possible with no or minor modifications due to flexible dimensions.</p>
 </li>
 <li>
 <p>Each team starts <strong>only one robot</strong></p>
 </li>
 <li>
-<p><strong>The Ball</strong> The league uses the same special ball that emits an IR signal that Light Weight League uses. Please see <a href="#ball">Rule 6, &#8220;BALL&#8221;</a> for balls specifications.</p>
+<p><strong>The Ball</strong> The league uses the same special ball that emits an IR signal that
+Light Weight League uses. Please see <a href="#ball">Rule 6, &#8220;BALL&#8221;</a> for balls specifications.</p>
+</li>
+<li>
+<p>Restrictions on the number of drive motors apply (max. 2 drive motors for <strong>1:1
+Standard Kit League</strong>, max. 3 drive motors for <strong>1:1 Lightweight League</strong>)</p>
+</li>
+<li>
+<p>In most regions participation in each 1:1 League is limited to two years (see <a href="#competition-cap">Rule 1.2, &#8220;Competition Cap&#8221;</a>)
+=== 1:1 Standard Kit League</p>
+</li>
+<li>
+<p>Number of drive motors is restricted to two
+Due to availaibility concerns with sensors and future products suitable for
+RoboCup Soccer use the restrictions to only Lego and Fischertechnik parts were
+lifted. A number of changes were made to preserve the character of the league
+and keep existing Lego and Fischertechnik robots competitive:</p>
+</li>
+<li>
+<p>Use of parts that are neither Lego nor Fischertechnik is permitted</p>
+</li>
+<li>
+<p>A weight limit of 800g is introduced</p>
+</li>
+<li>
+<p>Only a list of allowable motors (see <a href="#motor-whitelist">[motor-whitelist]</a>) with
+comparable power to Lego and Fischertechnik motors is permitted
+=== 1:1 Lightweight League</p>
+</li>
+<li>
+<p>Number of drive motors is restricted to three</p>
+</li>
+<li>
+<p>The voltage limit remains at 12V (unlike 2:2 LWL where it is increased)</p>
+</li>
+<li>
+<p>The weight limit for <strong>1:1 Lightweight League</strong> remains at 1100g (unlike 2:2 LWL where it is increased)</p>
 </li>
 </ul>
 </div>
-<h3 id="_detailled_list_of_changes_compared_to_regular_soccer_rules" class="discrete">Detailled list of changes compared to regular soccer rules</h3>
+<h3 id="_changes_from_the_2023_robocupjunior_soccer_entry_rules" class="discrete">Changes from the 2023 RoboCupJunior Soccer Entry Rules</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="#addition-1">Added "Team members can participate only twice"</a></p>
+<p><a href="#addition-1">Added "With exceptions mentioned below all parts may be used (the limitation to Lego and Fischertechnik parts only no longer applies)."</a></p>
 </li>
 <li>
-<p><a href="#addition-2">Added " Robots may enter the goals. "</a></p>
+<p><a href="#addition-2">Added "The Soccer League Committee maintains a list of motors that are most likely allowed at all Entry tournaments. The tournament organizers will have the final say on this and may have a different list. Teams are expected to make sure their motors are allowed by checking the lists for their tournaments. This list is available &lt;&lt;motor-whitelist&gt;&gt;."</a></p>
 </li>
 <li>
-<p><a href="#addition-3">Added "The four corners of the field are flattened in order to make it easier for robots to retrieve the ball from a corner. The flat area is approx. 14cm in width."</a></p>
+<p><a href="#addition-3">Added "A maxmimum of two driving motors is allowed."</a></p>
 </li>
 <li>
-<p><a href="#addition-4">Added "There is no outer area."</a></p>
+<p><a href="#addition-4">Added "The voltage limit remains 12V nominal and 48V maximum at the kicker despite changes in 2:2 Lightweight."</a></p>
 </li>
 <li>
-<p><a href="#addition-5">Added "The goal <strong>may or may not have</strong> a cross-bar on top. The size of the cross-bar is 2 +/- 1 cm in height."</a></p>
+<p><a href="#addition-5">Added "A maxmimum of three drive motors is allowed"</a></p>
 </li>
 <li>
-<p><a href="#addition-6">Added "smoothly"</a></p>
+<p><a href="#addition-6">Added "All robot kickers will be tested with the tournament ball. Kicker Power will be measured by means of an on-field test."</a></p>
 </li>
 <li>
-<p><a href="#substitution-1">Changed "two" to "one"</a></p>
-</li>
-<li>
-<p><a href="#substitution-2">Changed "two" to "one"</a></p>
-</li>
-<li>
-<p><a href="#substitution-3">Changed "out of bounds" to "inside the goal"</a></p>
-</li>
-<li>
-<p><a href="#substitution-4">Changed "Robots are expected to be capable of dealing with any colors above the walls (e.g. blue, yellow, green or orange shirts) either in hardware (e.g. limiting the field of view from looking up) or in software (e.g. masking the input image)." to "Any person close to playing fields with walls lower than 22cm is not allowed to wear any yellow or blue clothes that can be seen by the robots (to avoid interference). A referee can require a team member to change clothes or to be replaced by another team member if interference is suspected."</a></p>
-</li>
-<li>
-<p><a href="#substitution-5">Changed "at most two robots" to "only one robot"</a></p>
-</li>
-<li>
-<p><a href="#substitution-6">Changed "A robot must have markings in order to be distinguished by the referee. " to " Top markers (as mentioned in the international rulesets) are not required."</a></p>
-</li>
-<li>
-<p><a href="#substitution-7">Changed "158cm" to "between 110 cm and 160 cm"</a></p>
-</li>
-<li>
-<p><a href="#substitution-8">Changed "219cm" to "between 180 cm and 225 cm"</a></p>
-</li>
-<li>
-<p><a href="#substitution-9">Changed "wall is 22cm" to "wall is between 10cm and 25cm"</a></p>
-</li>
-<li>
-<p><a href="#substitution-10">Changed "60 cm" to "45 to 60 cm wide"</a></p>
-</li>
-<li>
-<p><a href="#substitution-11">Changed "25cm wide and 80cm long penalty area " to "penalty area (optional). It is decorative and serves no purpose in gameplay."</a></p>
+<p><a href="#addition-7">Added "The below list of motors most likely be allowed in all <strong>1:1 Standard Kit Leage</strong> tournaments. Teams are advised to check this document for updates (see date at the bottom of the page) <strong>and</strong> to check their local, regional and super-regional tournament regulations for the official list for the respective tournaments."</a></p>
 </li>
 </ul>
 </div>
 </div>
-</div>
 <div class="sect2">
-<h3 id="_competition_cap"><a class="anchor" href="#_competition_cap"></a><a class="link" href="#_competition_cap">1. Competition Cap</a></h3>
-<div id="addition-1" class="paragraph">
-<p><span class="red"><strong>Team members can participate only twice</strong></span> in leagues played according to this
-RoboCupJunior Soccer Entry ruleset. After their second participation, they need to
-move on to the international RCJ Soccer leagues instead.
-<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup></p>
+<h3 id="competition-cap"><a class="anchor" href="#competition-cap"></a><a class="link" href="#competition-cap">1.2. Competition Cap</a></h3>
+<div class="paragraph">
+<p>Team members can participate only twice in each league played according to one of these
+RoboCupJunior Soccer Entry rulesets. After their second participation, they need to
+move on from <strong>1:1 Standard Kit League</strong> to <strong>1:1 Lightweight League</strong> and from
+<strong>1:1 Lightweight League</strong> to one of the 2:2 Leagues respectively.
+<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
 </div>
 <div class="paragraph">
-<p>Team members that participated in the international RoboCupJunior Soccer leagues
+<p>Team members that participated in the 2:2 RoboCupJunior Soccer leagues
 at any level (local, regional, super-regional, international) before may not
 participate in the Entry league(s) again.</p>
 </div>
@@ -695,12 +714,14 @@ participate in the Entry league(s) again.</p>
 team. Mentors, teachers, parents or companies should not be involved in the
 design, construction, assembly, programming or debugging of robots. To avoid
 possible disqualification, it is extremely important that
-teams abide by this league&#8217;s regulations, especially <a href="#regulations-construction">Rule 8.5.4, &#8220;Construction&#8221;</a>
+teams abide by these leagues' regulations, especially <a href="#regulations-construction">Rule 8.5.4, &#8220;Construction&#8221;</a>
 and <a href="#regulations-programming">Rule 8.5.5, &#8220;Programming&#8221;</a>, and all other competitor’s rules.</p>
 </div>
 <div class="paragraph">
 <p>If in doubt, please consult with your Regional Representative before
 registering your team.</p>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -709,9 +730,7 @@ registering your team.</p>
 <div class="sect2">
 <h3 id="game-procedure-and-length-of-a-game"><a class="anchor" href="#game-procedure-and-length-of-a-game"></a><a class="link" href="#game-procedure-and-length-of-a-game">2.1. Game procedure and length of a game</a></h3>
 <div class="paragraph">
-<p>RCJ Soccer games consist of two teams of <a id="substitution-2"></a>
-<span class="red"><strong>one</strong></span>
-<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup> robot each, playing soccer against each
+<p>RCJ Soccer games consist of two teams of one robot each, playing soccer against each
 other. Each team has one autonomous robot. The game will consist of two
 halves. The duration of each half is 10-minutes. There will be a 5-minute break
 in between the halves.</p>
@@ -766,9 +785,7 @@ the field. The robot on the team not kicking off must be at least 30 cm away
 from the ball (outside of the center circle).</p>
 </div>
 <div class="paragraph">
-<p>Robots cannot be placed <a id="substitution-3"></a>
-<span class="red"><strong>inside the goal</strong></span>
-<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup>. Robots cannot be
+<p>Robots cannot be placed inside the goal. Robots cannot be
 repositioned once they have been placed, except if the referee requests to
 adjust their placement to make sure that the robots are placed properly within
 the field positions.</p>
@@ -852,7 +869,7 @@ there is no change in ball and robot’s positions, or when the ball is beyond
 detection or reach capability of all robots on the field.</p>
 </div>
 <div class="paragraph">
-<p>After a visible and loud count <sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup>,
+<p>After a visible and loud count <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup>,
 a referee will call <code><strong>lack of progress</strong></code> and
 will move the ball to the nearest unoccupied neutral spot. If this does not
 solve the lack of progress, the referee can move the ball to a different
@@ -929,7 +946,7 @@ kick-off.</p>
 <h3 id="team-regulations"><a class="anchor" href="#team-regulations"></a><a class="link" href="#team-regulations">3.1. Regulations</a></h3>
 <div class="paragraph">
 <p>A team must have more than one member to form a RoboCupJunior team to
-participate in the competition. A team member(s) and/or robot(s) cannot
+participate in the competition. Team member(s) and/or robot(s) cannot
 be shared between teams.
 The maximum number of team members is defined by each competition respectively,
 but is usually 4.</p>
@@ -951,9 +968,12 @@ assistant team member.</p>
 <div class="paragraph">
 <p>Teams that do not abide by the rules are not allowed to participate.</p>
 </div>
-<div id="substitution-4" class="paragraph">
-<p><span class="red"><strong>Any person close to playing fields with walls lower than 22cm is not allowed to wear any yellow or blue clothes that can be seen by the robots (to avoid interference). A referee can require a team member to change clothes or to be replaced by another team member if interference is suspected.</strong></span>
-<sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup></p>
+<div class="paragraph">
+<p>Any person close to playing fields
+with walls lower than 22cm is not allowed to wear any yellow or blue clothes that
+can be seen by the robots (to avoid interference). A referee can require a team
+member to change clothes or to be replaced by another team member if interference
+is suspected.</p>
 </div>
 <div class="paragraph">
 <p>The referee can interrupt a game in progress if any kind of interference from
@@ -980,9 +1000,7 @@ proof/evidence of the interference.</p>
 <div class="sect2">
 <h3 id="number-of-robots-substitution"><a class="anchor" href="#number-of-robots-substitution"></a><a class="link" href="#number-of-robots-substitution">4.1. Number of robots / substitutions</a></h3>
 <div class="paragraph">
-<p>Each team is allowed to have <a id="substitution-5"></a>
-<span class="red"><strong>only one robot</strong></span>
-<sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup> for the full tournament.
+<p>Each team is allowed to have only one robot for the full tournament.
 The substitution of robots during the competition within the team or
 with other teams is forbidden.</p>
 </div>
@@ -1024,19 +1042,15 @@ limited to only one dimension (defined as a single axis, such as only moving in
 a straight line). They must move in all directions, for example by turning.</p>
 </div>
 <div class="paragraph">
-<p>Robots must respond to the ball in a direct forward movement towards it. For
-example, it is not enough to basically just move left and right in front of
-their own goal, it must also move directly towards the ball in a forward
-movement. A robot must be able to seek and approach the ball
-anywhere on the field.</p>
+<p>Robots must respond to the ball in a direct forward movement towards it.</p>
 </div>
 <div class="paragraph">
-<p>A robot must touch the ball that is placed no further than 20 cm from any point
-on its convex hull within 10 seconds. If a robot does not do so within the time
-limit, it is deemed to be damaged. (See <a href="#damaged-robots">Damaged Robots</a>.)</p>
+<p>A robot must touch the ball that is placed no further than 20 cm from it within 10 seconds.
+If a robot does not do so within the time limit, it is deemed to be damaged.
+(See <a href="#damaged-robots">Damaged Robots</a>.)</p>
 </div>
-<div id="addition-2" class="paragraph">
-<p><span class="red">* Robots may enter the goals. *</span></p>
+<div class="paragraph">
+<p>Robots may enter the goals.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1054,9 +1068,8 @@ limit cannot be used to mount components of the robot.</p>
 </div>
 <div class="sect2">
 <h3 id="top-markers"><a class="anchor" href="#top-markers"></a><a class="link" href="#top-markers">4.6. Top Markers</a></h3>
-<div id="substitution-6" class="paragraph">
-<p><span class="red">* Top markers (as mentioned in the international rulesets) are not required.*</span>
-<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup></p>
+<div class="paragraph">
+<p>Top markers (as required in the 2:2 leagues) are not required.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1081,55 +1094,49 @@ tournament.</p>
 <div class="sect2">
 <h3 id="dimensions-of-the-field"><a class="anchor" href="#dimensions-of-the-field"></a><a class="link" href="#dimensions-of-the-field">5.1. Dimensions of the field</a></h3>
 <div class="paragraph">
-<p>The playing field is <a id="substitution-7"></a>
-<span class="red"><strong>between 110 cm and 160 cm</strong></span>
-<sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup> in width.</p>
+<p>The playing field is between 110 cm and 160 cm in width.</p>
 </div>
 <div class="paragraph">
-<p>The playing field is <a id="substitution-8"></a>
-<span class="red"><strong>between 180 cm and 225 cm</strong></span>
-<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup> in depth.</p>
+<p>The playing field is between 180 cm and 225 cm in depth.</p>
 </div>
 <div class="paragraph">
 <p>This allows for re-using existing equipment such as older RCJ soccer fields
-(122 cm by 183 cm, used to be called "Soccer A") which is recommended where
-available or FLL (236 cm, 221 cm with goals placed inside by 114 cm) and
-regular RCJ Soccer fields to be temporarily converted with some temporary
-wooden walls (219 cm x 158 cm with walls on lines). Teams should contact the
-organizers of
-their tournament about the exact dimensions used within the competition.</p>
+(122 cm by 183 cm, used to be called "Soccer A") or FLL (236 cm by 114 cm becoming
+221 cm by 114 cm with temporary goals installed) or regular RCJ Soccer fields
+(219 cm x 158 cm when converted with temporaty walls on field lines).
+Teams should contact the organizers of their tournament about the exact
+fields used for the competition.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="field-walls"><a class="anchor" href="#field-walls"></a><a class="link" href="#field-walls">5.2. Walls</a></h3>
 <div class="paragraph">
-<p>Walls are placed all around the field. The height of the <a id="substitution-9"></a>
-<span class="red"><strong>wall is between 10cm and 25cm</strong></span>
-<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnotedef_11" title="View footnote.">11</a>]</sup>. A height of at least 14 cm is recommended. The walls are painted matte black.</p>
+<p>Walls are placed all around the field. The height of the wall is between
+10cm and 25cm. A height of at least 14 cm is recommended. The walls are painted matte black.</p>
 </div>
-<div id="addition-3" class="paragraph">
-<p><span class="red"><strong>The four corners of the field are flattened in order to make it easier for robots to retrieve the ball from a corner. The flat area is approx. 14cm in width.</strong></span></p>
+<div class="paragraph">
+<p>The four corners of the field are flattened in order to make it easier
+for robots to retrieve the ball from a corner. The flat area is approx. 14cm in width.</p>
 </div>
-<div id="addition-4" class="paragraph">
-<p><span class="red"><strong>There is no outer area.</strong></span></p>
+<div class="paragraph">
+<p>There is no outer area.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="goals"><a class="anchor" href="#goals"></a><a class="link" href="#goals">5.3. Goals</a></h3>
 <div class="paragraph">
 <p>The field has two goals, centered on each of the shorter sides of the playing
-field. The goal inner space is <a id="substitution-10"></a>
-<span class="red"><strong>45 to 60 cm wide</strong></span>
-<sup class="footnote">[<a id="_footnoteref_12" class="footnote" href="#_footnotedef_12" title="View footnote.">12</a>]</sup> and 74 mm deep. It is
+field. The goal inner space is 45 to 60 cm wide and 74 mm deep. It is
 outside the playing field (submerged into the walls). The height of the goal
 is equal to the height of the walls.</p>
 </div>
-<div id="addition-5" class="paragraph">
-<p><span class="red"><strong>The goal *may or may not have</strong> a cross-bar on top. The size of the cross-bar is 2 +/- 1 cm in height.*</span></p>
+<div class="paragraph">
+<p>The goal <strong>may or may not have</strong> a cross-bar on top.
+The size of the cross-bar is 2±1 cm in height.</p>
 </div>
 <div class="paragraph">
-<p>The interior walls and the crossbar of each goal are colored matte, one goal in yellow,
-the other goal in blue.</p>
+<p>The interior walls and the crossbar of each goal are colored matte, one goal yellow,
+the other goal blue.</p>
 </div>
 <div class="paragraph">
 <p>It is recommended that the blue be of a brighter shade so that it is different
@@ -1143,7 +1150,7 @@ enough from the black exterior.</p>
 consists of green carpet ideally of darker shade on top of a hard level surface. Teams
 should be prepared to adjust to different levels of contrast between the green carpet
 and lines as some events may be restricted to using lighter shades of green. All
-lines on the field should be painted, marked with tape
+lines on the field should be painted, marked with tape,
 or installed as white carpet and be somewhat resistant to tearing or ripping.
 Lines should have a width of 20mm (±10%).</p>
 </div>
@@ -1151,7 +1158,7 @@ Lines should have a width of 20mm (±10%).</p>
 <p>It is impractical to set international constraints on carpet other than it
 being green. In the spirit of the competition, teams should design robots
 to be tolerant or adaptable to different fibers, textures, construction,
-density, shades and designs of carpet especially when competing amongst different
+density, shades, and designs of carpet especially when competing amongst different
 regions. Teams are encouraged to visit regional resources or reach out to Local
 Organization Committee for suggestions if desiring to build their own practice
 field(s).</p>
@@ -1178,9 +1185,8 @@ during kick-off.</p>
 <div class="sect2">
 <h3 id="penalty-areas"><a class="anchor" href="#penalty-areas"></a><a class="link" href="#penalty-areas">5.7. Penalty areas</a></h3>
 <div class="paragraph">
-<p>In front of each goal there is a <a id="substitution-11"></a>
-<span class="red"><strong>penalty area (optional). It is decorative and serves no purpose in gameplay.</strong></span>
-<sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup></p>
+<p>In front of each goal there is a penalty area (optional).
+It is decorative and serves no purpose in gameplay.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1361,29 +1367,35 @@ robot’s dimensions must not exceed the following limits:</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">size <sup>[0]</sup></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">22.0 cm<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sub-league</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>1:1</strong> <strong>Standard</strong> <strong>Kit</strong> <strong>League</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>1:1</strong> <strong>Lightweight</strong> <strong>League</strong><br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">size</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22.4 cm (square) <sup>[0]</sup></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22.0 cm (circle) <sup>[1]</sup><br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">height</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">22.0 cm <sup>[1]</sup><br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22.4 cm <sup>[2]</sup></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22.0 cm<br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">weight</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1100 g <sup>[2]</sup><br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">800 g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1100 g <sup>[3]</sup><br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ball-capturing zone</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">3.0 cm<br></p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">voltage</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">12.0 V <sup>[3]</sup> <sup>[4]</sup><br></p></td>
 </tr>
 </tbody>
 </table>
@@ -1394,8 +1406,7 @@ robot’s dimensions must not exceed the following limits:</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-[0] Robot must fit <a id="addition-6"></a>
-<span class="red"><strong>smoothly</strong></span> into a cylinder of this diameter
+[0] Robot must fit smoothly into a cube of this size.
 </td>
 </tr>
 </table>
@@ -1407,7 +1418,7 @@ robot’s dimensions must not exceed the following limits:</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-[1] The handle of a robot may exceed the height.
+[1] Robot must fit smoothly into a cylinder of this diameter
 </td>
 </tr>
 </table>
@@ -1419,7 +1430,19 @@ robot’s dimensions must not exceed the following limits:</p>
 <i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
-[2] The weight of the robot includes that of the handle.
+[2] The handle of a robot may exceed the height.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+[3] The weight of the robot includes that of the handle.
 </td>
 </tr>
 </table>
@@ -1431,7 +1454,7 @@ robot’s dimensions must not exceed the following limits:</p>
 <i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
-[3] We <strong>strongly</strong> encourage teams to include protection circuits for Lithium-based
+[4] We <strong>strongly</strong> encourage teams to include protection circuits for Lithium-based
 batteries
 </td>
 </tr>
@@ -1444,8 +1467,8 @@ batteries
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-[4] Voltage limits relate to the <strong>nominal values</strong>, deviations at the
-power pack due to the fact that charged will be tolerated.
+[5] Voltage limits relate to the <strong>nominal values</strong>, slightly higher voltages
+at high states of charge are allowed.
 </td>
 </tr>
 </table>
@@ -1456,12 +1479,6 @@ edge is placed on the protruding points of a robot. This means the ball must
 not enter the convex hull of a robot by more than the specified depth.
 Furthermore, it must be possible for another robot to take possession of the
 ball.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="media/Convex_Hull_Robot.png" alt="Convex Hull Robot">
-</div>
-<div class="title">Figure 3. Think of the convex hull requirement as a rubber band that must fit around all points of the robot, i.e. the ball may not go inside the convex hull (red line) more than allowed</div>
 </div>
 </div>
 <div class="sect3">
@@ -1485,17 +1502,6 @@ optical parts, optical systems, and total field of view. Components may be
 sourced in any way the team sees fit.</p>
 </div>
 <div class="paragraph">
-<p>Voltage pump circuits are permitted only for a kicker drive. No voltage may
-exceed 48V at any time and maximum boost voltage must be available for
-demonstration and measurement at inspections. When not in use measurement
-contacts must be protected from accidental touches or short circuits. All
-other
-electrical circuits inside the robot cannot exceed
-12.0 V. Each robot must be designed to allow verifying
-the voltage of power packs and its circuits, unless the nominal voltage is
-obvious by looking at the robot, its power packs and connections.</p>
-</div>
-<div class="paragraph">
 <p>Pneumatic devices are allowed to use ambient air only.</p>
 </div>
 <div class="paragraph">
@@ -1504,7 +1510,53 @@ competition. During gameplay, a referee can ask to see a sample kick on the
 field before each half when a damaged robot is returned to the field or when
 the game is about to be restarted after a goal. If the referee strongly
 suspects that a kicker exceeds the power limit, they can require an official
-measurement. See <a href="#kicker-power-measuring">[kicker-power-measuring]</a> for more details.</p>
+measurement. See <a href="#kicker-power-measuring">Appendix B, <em>Kicker Power Measuring Procedures</em></a> for more details.</p>
+</div>
+<div class="sect4">
+<h5 id="_11_standard_kit_league"><a class="anchor" href="#_11_standard_kit_league"></a><a class="link" href="#_11_standard_kit_league">1:1 Standard Kit League</a></h5>
+<div id="addition-1" class="paragraph">
+<p><span class="red"><strong>With exceptions mentioned below all parts may be used (the limitation to Lego and Fischertechnik parts only no longer applies).</strong></span></p>
+</div>
+<div id="addition-2" class="paragraph">
+<p><span class="red"><strong>The Soccer League Committee maintains a list of motors that are most likely allowed at all Entry tournaments. The tournament organizers will have the final say on this and may have a different list. Teams are expected to make sure their motors are allowed by checking the lists for their tournaments. This list is available <a href="#motor-whitelist">[motor-whitelist]</a>.</strong></span></p>
+</div>
+<div class="paragraph">
+<p>Voltage pump circuits are not permitted.</p>
+</div>
+<div class="paragraph">
+<p>Maximum nominal battery voltage is 9V.</p>
+</div>
+<div id="addition-3" class="paragraph">
+<p><span class="red"><strong>A maxmimum of two driving motors is allowed.</strong></span> Only motors
+involved in moving the robot across the field are considered driving motors.
+Any number of additional motors may be used for dribblers, kickers and other
+mechanisms.</p>
+</div>
+<div class="paragraph">
+<p>{A weight limit of 800g is introduced to prevent heavy custom robots from
+overpowering Lego and Fischertechnik robots.}</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_11_lightweight_league"><a class="anchor" href="#_11_lightweight_league"></a><a class="link" href="#_11_lightweight_league">1:1 Lightweight League</a></h5>
+<div class="paragraph">
+<p>Voltage pump circuits are permitted only for a kicker drive. No voltage may
+exceed 48V at any time and maximum boost voltage must be available for
+demonstration and measurement at inspections. When not in use measurement
+contacts must be protected from accidental touches or short circuits.</p>
+</div>
+<div class="paragraph">
+<p>All other electrical circuits inside the robot cannot exceed
+12.0 V. Each robot must be designed to allow verifying
+the voltage of power packs and its circuits, unless the nominal voltage is
+obvious by looking at the robot, its power packs and connections.</p>
+</div>
+<div id="addition-4" class="paragraph">
+<p><span class="red"><strong>The voltage limit remains 12V nominal and 48V maximum at the kicker despite changes in 2:2 Lightweight.</strong></span></p>
+</div>
+<div id="addition-5" class="paragraph">
+<p><span class="red"><strong>A maxmimum of three drive motors is allowed</strong></span></p>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -1603,7 +1655,7 @@ inspections include:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Weight restrictions (see <a href="#dimensions">Rule 8.5.1, &#8220;Dimensions&#8221;</a>).</p>
+<p>Weight restrictions for the particular sub-league (see <a href="#dimensions">Rule 8.5.1, &#8220;Dimensions&#8221;</a>).</p>
 </li>
 <li>
 <p>Robot dimensions (see <a href="#dimensions">Rule 8.5.1, &#8220;Dimensions&#8221;</a>).</p>
@@ -1612,7 +1664,7 @@ inspections include:</p>
 <p>Voltage restrictions (see <a href="#dimensions">Rule 8.5.1, &#8220;Dimensions&#8221;</a> and <a href="#regulations-limitations">Rule 8.5.3, &#8220;Limitations&#8221;</a>).</p>
 </li>
 <li>
-<p>Kicker strength limits, if the robot has a kicker (see <a href="#kicker-power-measuring">[kicker-power-measuring]</a>).</p>
+<p>Kicker strength limits, if the robot has a kicker (see <a href="#kicker-power-measuring">Appendix B, <em>Kicker Power Measuring Procedures</em></a>).</p>
 </li>
 </ul>
 </div>
@@ -1723,132 +1775,92 @@ find a ball with this name anymore, any IR ball produced by EK Japan/Elekit is
 considered to be approved by the Soccer League Committee.</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="kicker-power-measure-preamble"><a class="anchor" href="#kicker-power-measure-preamble"></a><a class="link" href="#kicker-power-measure-preamble">A.4. Soccer Entry Kicker Power Measurement Device</a></h3>
-<div class="paragraph">
-<p>This Kicker Power Measuring Device can measure the power of a robot’s kicker.
-It is easy to build with commonly accessible materials.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="kicker-power-measuring"><a class="anchor" href="#kicker-power-measuring"></a><a class="link" href="#kicker-power-measuring">Appendix B: Kicker Power Measuring Procedures</a></h2>
+<div class="sectionbody">
+<div id="addition-6" class="paragraph">
+<p><span class="red"><strong>All robot kickers will be tested with the tournament ball. Kicker Power will be measured by means of an on-field test.</strong></span></p>
 </div>
 <div class="paragraph">
-<p>This device can measure the power of a robot’s kicker up to a length of 22cm.</p>
+<p>The test is performed as follows:</p>
 </div>
-<div class="paragraph">
-<p><span class="image"><img src="media/image8.png" alt="image"></span></p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Place robot inside the left corner of a goal.</p>
+</li>
+<li>
+<p>Perform a kick into the opposing goal</p>
+</li>
+<li>
+<p>The kicker power test is passed if the ball does not cross into the opposite
+half of the field.</p>
+</li>
+</ol>
 </div>
-<div class="sect3">
-<h4 id="materials"><a class="anchor" href="#materials"></a><a class="link" href="#materials">A.4.1. Materials</a></h4>
+<div id="addition-7" class="paragraph">
+<p><span class="red"><strong>The below list of motors most likely be allowed in all *1:1 Standard Kit Leage</strong> tournaments. Teams are advised to check this document for updates (see date at the bottom of the page) <strong>and</strong> to check their local, regional and super-regional tournament regulations for the official list for the respective tournaments.*</span></p>
+</div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Plastic Board</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">A4 paper size</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Manufacturer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Model Number</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Notes</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">M3 Spacers</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lego</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">All models</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Original and replica parts allowed</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">M3 Screw</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fischertechnik</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">All models</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Original and replica parts allowed</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pololu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Metal Gearmotor 25Dx48L mm MP 12V</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">with or without any of the gearbox ratios</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pololu</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Metal Gearmotor 25Dx48L mm LP 12V</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">with or without any of the gearbox ratios</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Robotis</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dynamixel</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">XL-320, XL-330</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">XYT</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">JGA25-370</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TT Motor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GMP16-050SH</p></td>
+<td class="tableblock halign-left valign-top"></td>
 </tr>
 </tbody>
 </table>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-The M3 spacers are different for each league, due to the different
-size of the ball. For the Lightweight league, please use <strong>40mm</strong> spacer and
-for the open league please use <strong>25mm</strong> spacer.
-</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="sect3">
-<h4 id="device-schematics"><a class="anchor" href="#device-schematics"></a><a class="link" href="#device-schematics">A.4.2. Device schematics</a></h4>
 <div class="paragraph">
-<p>The device schematics can be printed out from the diagram located at the end of
-the document. Please be advised to check that the software you use to print the
-schematic does not have a <strong>scale to fit</strong> option activated (i.e. check that it
-is configured to print at 100% or <strong>actual size</strong> scale).</p>
-</div>
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tip"></i>
-</td>
-<td class="content">
-The device schematics shows a straight line past the 22cm mark, while the
-photo shows the line at that point to be curved. Either straight or curved
-lines are acceptable, but a curved line will request more difficult cutting and
-the attached device schematic is simple enough for quick construction.
-</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="sect3">
-<h4 id="example-of-device-construction"><a class="anchor" href="#example-of-device-construction"></a><a class="link" href="#example-of-device-construction">A.4.3. Example of device construction</a></h4>
-<div class="olist loweralpha">
-<ol class="loweralpha">
-<li>
-<p>Print out the device schematics.</p>
-</li>
-<li>
-<p>Paste the paper on a plastic board. The incline line (red lines)
-should be straight.</p>
-</li>
-<li>
-<p>Cut out along the lines and drill the holes.</p>
-</li>
-<li>
-<p>The two boards should be connected using the 40mm (Lightweight) or 25mm (Open) spacers.</p>
-</li>
-</ol>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-You can find the image of the schematic at <a href="https://github.com/RoboCupJuniorTC/soccer-rules/blob/master/kicker_testing_schematics.png" class="bare">https://github.com/RoboCupJuniorTC/soccer-rules/blob/master/kicker_testing_schematics.png</a>
-</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="sect3">
-<h4 id="inspection"><a class="anchor" href="#inspection"></a><a class="link" href="#inspection">A.4.4. Soccer Lightweight Kicker Power Measurement Procedure</a></h4>
-<div class="olist loweralpha">
-<ol class="loweralpha">
-<li>
-<p>Place a ball at the bottom of the ramp run of the device, and put the robot
-in front of the ball, aiming the kicker towards the top of the ramp.</p>
-</li>
-<li>
-<p>Activate the robot’s kicker for a single shot.</p>
-</li>
-<li>
-<p>Measure the distance that the ball traveled on the device. The distance
-should not exceed 22 cm.</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="media/image9.png" alt="image"></span></p>
-</div>
-</div>
+<p>If it is not practical for teams to use one of the above motors or you find any
+other suitable motor you would like added to the list please post the motor and
+why you think it is a good fit on this forum thread:</p>
 </div>
 </div>
 </div>
@@ -1856,48 +1868,15 @@ should not exceed 22 cm.</p>
 <div id="footnotes">
 <hr>
 <div class="footnote" id="_footnotedef_1">
-<a href="#_footnoteref_1">1</a>. In previous version this said "two"
+<a href="#_footnoteref_1">1</a>. Some regions will have other entry leagues that may be exempt from this rule. Please refer to your local tournament organizers in order to find out in which leagues you may compete.
 </div>
 <div class="footnote" id="_footnotedef_2">
-<a href="#_footnoteref_2">2</a>. Some regions will have other entry leagues that may be exempt from this rule. Please refer to your local tournament organizers in order to find out in which leagues you may compete.
-</div>
-<div class="footnote" id="_footnotedef_3">
-<a href="#_footnoteref_3">3</a>. In previous version this said "two"
-</div>
-<div class="footnote" id="_footnotedef_4">
-<a href="#_footnoteref_4">4</a>. In previous version this said "out of bounds"
-</div>
-<div class="footnote" id="_footnotedef_5">
-<a href="#_footnoteref_5">5</a>. usually a count of three
-</div>
-<div class="footnote" id="_footnotedef_6">
-<a href="#_footnoteref_6">6</a>. In previous version this said "Robots are expected to be capable of dealing with any colors above the walls (e.g. blue, yellow, green or orange shirts) either in hardware (e.g. limiting the field of view from looking up) or in software (e.g. masking the input image)."
-</div>
-<div class="footnote" id="_footnotedef_7">
-<a href="#_footnoteref_7">7</a>. In previous version this said "at most two robots"
-</div>
-<div class="footnote" id="_footnotedef_8">
-<a href="#_footnoteref_8">8</a>. In previous version this said "A robot must have markings in order to be distinguished by the referee. "
-</div>
-<div class="footnote" id="_footnotedef_9">
-<a href="#_footnoteref_9">9</a>. In previous version this said "158cm"
-</div>
-<div class="footnote" id="_footnotedef_10">
-<a href="#_footnoteref_10">10</a>. In previous version this said "219cm"
-</div>
-<div class="footnote" id="_footnotedef_11">
-<a href="#_footnoteref_11">11</a>. In previous version this said "wall is 22cm"
-</div>
-<div class="footnote" id="_footnotedef_12">
-<a href="#_footnoteref_12">12</a>. In previous version this said "60 cm"
-</div>
-<div class="footnote" id="_footnotedef_13">
-<a href="#_footnoteref_13">13</a>. In previous version this said "25cm wide and 80cm long penalty area "
+<a href="#_footnoteref_2">2</a>. usually a count of three
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-09-13 16:56:17 UTC
+Last updated 2023-12-03 02:03:18 UTC
 </div>
 </div>
 </body>
