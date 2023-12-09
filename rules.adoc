@@ -86,7 +86,7 @@ RoboCupJunior Soccer use the restrictions to only Lego and Fischertechnik parts 
 lifted. A number of changes were made to preserve the character of the league
 and keep existing Lego and Fischertechnik robots competitive:
 * Use of parts that are neither Lego nor Fischertechnik is permitted 
-* A weight limit of 800g is introduced
+* A weight limit of 1100g is introduced
 * Only a list of allowable motors (see <<motor-whitelist>>) with
 comparable power to Lego and Fischertechnik motors is permitted
 === 1:1 Lightweight League
@@ -662,7 +662,7 @@ robot’s dimensions must not exceed the following limits:
 sub-league | *1:1* *Standard* *Kit* *League* | *1:1* *Lightweight* *League* +
 |size | 22.4 cm (square) ^[0]^ | 22.0 cm (circle) ^[1]^ +
 |height | 22.4 cm ^[2]^ | 22.0 cm +
-|weight | 800 g | 1100 g ^[3]^ +
+|weight | 1100 g | 1100 g ^[3]^ +
 |ball-capturing zone | 3.0 cm +
 |voltage | 12.0 V ^[4]^ ^[5]^ +
 |===
@@ -733,7 +733,7 @@ involved in moving the robot across the field are considered driving motors.
 Any number of additional motors may be used for dribblers, kickers and other
 mechanisms.
 
-++{A weight limit of 800g is introduced to prevent heavy custom robots from
+++{A weight limit of 1100g is introduced to prevent heavy custom robots from
 overpowering Lego and Fischertechnik robots.++}
 
 ===== 1:1 Lightweight League
