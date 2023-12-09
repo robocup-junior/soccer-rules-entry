@@ -26,13 +26,13 @@ going to be played at your tournament.
 NOTE: This ruleset is not intended to be used at international level, except for super-regional
 tournaments.
 
-These are the RoboCup Junior Soccer Entry rules for the *1:1 Lightweight League*
+These are the RoboCupJunior Soccer Entry rules for the *1:1 Lightweight League*
 and *1:1 Standard Kit League*
 proposed for suggested use by regional and super-regional tournaments in the 
-2024 season. They are released by the RoboCup Junior League Committee. 
+2024 season. They are released by the RoboCupJunior League Committee. 
 The English version of these rules has priority over any translations.
 
-The aim of this document is to provide entry-level rulesets for RoboCup Junior Soccer
+The aim of this document is to provide entry-level rulesets for RoboCupJunior Soccer
 that are harmonized across regions and that may be used as-is or adapted to
 specific needs at regional and super-regional tournaments. Some regions
 already have their own, separate version of Soccer Entry rules. Teams are
@@ -82,7 +82,7 @@ Standard Kit League*, max. 3 drive motors for *1:1 Lightweight League*)
 === 1:1 Standard Kit League
 * Number of drive motors is restricted to two
 Due to availaibility concerns with sensors and future products suitable for
-RoboCup Soccer use the restrictions to only Lego and Fischertechnik parts were
+RoboCupJunior Soccer use the restrictions to only Lego and Fischertechnik parts were
 lifted. A number of changes were made to preserve the character of the league
 and keep existing Lego and Fischertechnik robots competitive:
 * Use of parts that are neither Lego nor Fischertechnik is permitted 
@@ -895,7 +895,7 @@ goals, or the field itself.
 Currently, there is one ball that has been approved by the
 Soccer League Committee:
 
-- RoboCup Junior Soccer ball operating in MODE A (pulsed) made by EK Japan/Elekit (https://elekit.co.jp/en/product/RCJ-05R)
+- RoboCupJunior Soccer ball operating in MODE A (pulsed) made by EK Japan/Elekit (https://elekit.co.jp/en/product/RCJ-05R)
 
 Note that this ball was previously called RCJ-05. While you may not be able to
 find a ball with this name anymore, any IR ball produced by EK Japan/Elekit is
