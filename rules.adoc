@@ -79,6 +79,7 @@ Light Weight League uses. Please see <<ball>> for balls specifications.
 * Restrictions on the number of drive motors apply (max. 2 drive motors for *1:1 
 Standard Kit League*, max. 3 drive motors for *1:1 Lightweight League*)
 * In most regions participation in each 1:1 League is limited to two years (see <<competition-cap>>)
+
 === 1:1 Standard Kit League
 * Number of drive motors is restricted to two
 Due to availaibility concerns with sensors and future products suitable for
@@ -89,6 +90,7 @@ and keep existing Lego and Fischertechnik robots competitive:
 * A weight limit of 1100g is introduced
 * Only a list of allowable motors (see <<motor-whitelist>>) with
 comparable power to Lego and Fischertechnik motors is permitted
+
 === 1:1 Lightweight League
 * Number of drive motors is restricted to three
 * The voltage limit remains at 12V (unlike 2:2 LWL where it is increased)
@@ -661,9 +663,9 @@ robot’s dimensions must not exceed the following limits:
 |===
 sub-league | *1:1* *Standard* *Kit* *League* | *1:1* *Lightweight* *League* +
 |size | 22.4 cm (square) ^[0]^ | 22.0 cm (circle) ^[1]^ +
-|height | 22.4 cm ^[2]^ | 22.0 cm +
+|height | 22.4 cm ^[2]^ | 22.0 cm ^[2]^ +
 |weight | 1100 g | 1100 g ^[3]^ +
-|ball-capturing zone | 3.0 cm +
+|ball-capturing zone | 3.0 cm | 3.0 cm +
 |voltage | 12.0 V ^[4]^ ^[5]^ +
 |===
 
@@ -714,7 +716,7 @@ the game is about to be restarted after a goal. If the referee strongly
 suspects that a kicker exceeds the power limit, they can require an official
 measurement. See <<kicker-power-measuring>> for more details.
 
-===== 1:1 Standard Kit League
+==== 1:1 Standard Kit League
 {++With exceptions mentioned below all parts may be used (the limitation to
 Lego and Fischertechnik parts only no longer applies).++}
 
@@ -736,7 +738,7 @@ mechanisms.
 ++{A weight limit of 1100g is introduced to prevent heavy custom robots from
 overpowering Lego and Fischertechnik robots.++}
 
-===== 1:1 Lightweight League
+==== 1:1 Lightweight League
 Voltage pump circuits are permitted only for a kicker drive. No voltage may
 exceed 48V at any time and maximum boost voltage must be available for 
 demonstration and measurement at inspections. When not in use measurement
@@ -917,7 +919,8 @@ half of the field.
 
 [appendix]
 [[motor-whitelist]]
-{++The below list of motors most likely be allowed in all *1:1 Standard Kit Leage* tournaments.
+== Motor Whitelist
+{++The below list of motors most likely be allowed in all 1:1 Standard Kit League tournaments.
 Teams are advised to check this document for updates (see date at the bottom of
 the page) *and* to check their local, regional and super-regional tournament
 regulations for the official list for the respective tournaments.++}
@@ -928,11 +931,12 @@ regulations for the official list for the respective tournaments.++}
 | Fischertechnik | All models | Original and replica parts allowed
 | Pololu | Metal Gearmotor 25Dx48L mm MP 12V | with or without any of the gearbox ratios
 | Pololu | Metal Gearmotor 25Dx48L mm LP 12V | with or without any of the gearbox ratios
-| Robotis | Dynamixel | XL-320, XL-330 | |
-| XYT | JGA25-370 | |
-| TT Motor | GMP16-050SH | | 
+| Robotis | Dynamixel XL-320, XL-330 |
+| XYT | JGA25-370 |
+| TT Motor | GMP16-050SH |
 |===
 
 If it is not practical for teams to use one of the above motors or you find any
 other suitable motor you would like added to the list please post the motor and
 why you think it is a good fit on this forum thread: 
+https://junior.forum.robocup.org/t/robocupjunior-soccer-entry-stantard-kit-motor-whitelist-discussion/3516
