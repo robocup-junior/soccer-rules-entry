@@ -74,15 +74,15 @@ compared to those are:
 reduces the complexity of robot construction and gameplay. Use of many existing
 fields is possible with no or minor modifications due to flexible dimensions.
 * Each team starts *only one robot*
-* *The Ball* The league uses the same special ball that emits an IR signal that
-Light Weight League uses. Please see <<ball>> for balls specifications.
+* *The Ball* the league uses the same special ball that emits an IR signal that
+Lightweight League uses. Please see <<ball>> for balls specifications.
 * Restrictions on the number of drive motors apply (max. 2 drive motors for *1:1 
 Standard Kit League*, max. 3 drive motors for *1:1 Lightweight League*)
 * In most regions participation in each 1:1 League is limited to two years (see <<competition-cap>>)
 
 === 1:1 Standard Kit League
 * Number of drive motors is restricted to two
-Due to availaibility concerns with sensors and future products suitable for
+* Due to availability concerns with sensors and future products suitable for
 RoboCupJunior Soccer use the restrictions to only Lego and Fischertechnik parts were
 lifted. A number of changes were made to preserve the character of the league
 and keep existing Lego and Fischertechnik robots competitive:
@@ -730,7 +730,7 @@ Voltage pump circuits are not permitted.
 
 Maximum nominal battery voltage is 9V.
 
-{++A maxmimum of two driving motors is allowed.++} Only motors
+{++A maximum of two driving motors is allowed.++} Only motors
 involved in moving the robot across the field are considered driving motors.
 Any number of additional motors may be used for dribblers, kickers and other
 mechanisms.
@@ -752,7 +752,7 @@ obvious by looking at the robot, its power packs and connections.
 {++The voltage limit remains 12V nominal and 48V maximum at the kicker despite
 changes in 2:2 Lightweight.++}
 
-{++A maxmimum of three drive motors is allowed++}
+{++A maximum of three drive motors is allowed++}
 
 [[regulations-construction]]
 ==== Construction
