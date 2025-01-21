@@ -1,4 +1,4 @@
-= RoboCupJunior Soccer Entry Rules 2024
+= RoboCupJunior Soccer Entry Rules 2025
 {docdate}
 :toc: left
 :sectanchors:
@@ -29,7 +29,7 @@ tournaments.
 These are the RoboCupJunior Soccer Entry rules for the *1:1 Lightweight League*
 and *1:1 Standard Kit League*
 proposed for suggested use by regional and super-regional tournaments in the 
-2024 season. They are released by the RoboCupJunior League Committee. 
+2025 season. They are released by the RoboCupJunior League Committee. 
 The English version of these rules has priority over any translations.
 
 The aim of this document is to provide entry-level rulesets for RoboCupJunior Soccer
@@ -79,6 +79,9 @@ Lightweight League uses. Please see <<ball>> for balls specifications.
 * Restrictions on the number of drive motors apply (max. 2 drive motors for *1:1 
 Standard Kit League*, max. 3 drive motors for *1:1 Lightweight League*)
 * In most regions participation in each 1:1 League is limited to two years (see <<competition-cap>>)
+* Furthermore, robots that have been constructed for any of the 2:2 RobocupJunior Soccer leagues
+at any level (local, regional, super-regional, international) in past, future, or present
+may not be used at any 1:1 League match.
 
 === 1:1 Standard Kit League
 * Number of drive motors is restricted to two
@@ -87,18 +90,18 @@ RoboCupJunior Soccer use the restrictions to only Lego and Fischertechnik parts 
 lifted. A number of changes were made to preserve the character of the league
 and keep existing Lego and Fischertechnik robots competitive:
 * Use of parts that are neither Lego nor Fischertechnik is permitted 
-* A weight limit of 1100g is introduced
+* A weight limit of 1400g is introduced
 * Only a list of allowable motors (see <<motor-whitelist>>) with
 comparable power to Lego and Fischertechnik motors is permitted
 
 === 1:1 Lightweight League
 * Number of drive motors is restricted to three
 * The voltage limit remains at 12V (unlike 2:2 LWL where it is increased)
-* The weight limit for *1:1 Lightweight League* remains at 1100g (unlike 2:2 LWL where it is increased)
+* The weight limit for *1:1 Lightweight League* has been increased to match the 2:2 LWL level of 1400g
 
 
 [discrete]
-=== Changes from the 2023 RoboCupJunior Soccer Entry Rules
+=== Changes from the 2024 RoboCupJunior Soccer Entry Rules
 
 {+-~TOC-CHANGES~-+}
 
@@ -664,7 +667,7 @@ robot’s dimensions must not exceed the following limits:
 sub-league | *1:1* *Standard* *Kit* *League* | *1:1* *Lightweight* *League* +
 |size | 22.4 cm (square) ^[0]^ | 22.0 cm (circle) ^[1]^ +
 |height | 22.4 cm ^[2]^ | 22.0 cm ^[2]^ +
-|weight | 1100 g | 1100 g ^[3]^ +
+|weight | 1400 g | 1400 g ^[3]^ +
 |ball-capturing zone | 3.0 cm | 3.0 cm +
 |voltage | 12.0 V ^[4]^ ^[5]^ +
 |===
@@ -735,7 +738,7 @@ involved in moving the robot across the field are considered driving motors.
 Any number of additional motors may be used for dribblers, kickers and other
 mechanisms.
 
-++{A weight limit of 1100g is introduced to prevent heavy custom robots from
+++{A weight limit of 1400g is introduced to prevent heavy custom robots from
 overpowering Lego and Fischertechnik robots.++}
 
 ==== 1:1 Lightweight League
@@ -934,6 +937,7 @@ regulations for the official list for the respective tournaments.++}
 | Robotis | Dynamixel XL-320, XL-330 |
 | XYT | JGA25-370 |
 | TT Motor | GMP16-050SH |
+| Vex Motor| All Models |
 |===
 
 If it is not practical for teams to use one of the above motors or you find any
