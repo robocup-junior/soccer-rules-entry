@@ -937,6 +937,7 @@ regulations for the official list for the respective tournaments.
 | Robotis | Dynamixel XL-320, XL-330 |
 | XYT | JGA25-370 |
 | TT Motor | GMP16-050SH |
+| {++QITA++} | XYT 12V Mini DC Motor (JGA25-370) |
 | {++Vex Motor++}| IQ Smart Motor (228-2560) | 
 |===
 
