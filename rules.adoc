@@ -939,6 +939,7 @@ regulations for the official list for the respective tournaments.
 | TT Motor | GMP16-050SH |
 | {++QITA++} | XYT 12V Mini DC Motor (JGA25-370) |
 | {++Vex Motor++}| IQ Smart Motor (228-2560) | 
+| {++TT Motor++} | GMP22-180SH |
 |===
 
 If it is not practical for teams to use one of the above motors or you find any
