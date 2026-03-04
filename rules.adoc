@@ -1,4 +1,4 @@
-= RoboCupJunior Soccer Entry Rules 2025
+= RoboCupJunior Soccer Entry Rules 2026
 {docdate}
 :toc: left
 :sectanchors:
@@ -26,7 +26,7 @@ going to be played at your tournament.
 NOTE: This ruleset is not intended to be used at international level, except for super-regional
 tournaments.
 
-These are the RoboCupJunior Soccer Entry rules for the *1:1 Lightweight League*
+These are the RoboCupJunior Soccer Entry rules for the *1:1 Infrared League*
 and *1:1 Standard Kit League*
 proposed for suggested use by regional and super-regional tournaments in the 
 2025 season. They are released by the RoboCupJunior League Committee. 
@@ -41,7 +41,7 @@ Representative regarding updates and changes to this ruleset specific to their
 location. Each team is responsible for verifying the correct and latest version
 of the rules prior to competition.
 
-[title="Two teams with one LWL robot each will compete using an IR ball on RCJ Soccer fields without the out-area. There is no need for using camera vision or line detection. Photo: Andreas Lander"]
+[title="Two teams with one infrared robot (used to be Lightweight) each will compete using an IR ball on RCJ Soccer fields without the out-area. There is no need for using camera vision or line detection. Photo: Andreas Lander"]
 image::media/smallfield_andreas_lander.jpg[]
 
 [discrete]
@@ -59,7 +59,7 @@ participants and by engaging in good sportsmanship, regardless of culture, age
 or result in the competition. *All are expected to compete, learn, have fun, and grow.*
 
 RoboCupJunior Soccer Entry rules are supplied for two entry-level. 
-*1:1 Lightweight League* leagues modelled after LWL but reduced to one robot
+*1:1 Infrared League* leagues modelled after IR league but reduced to one robot
 and restricted to at most three driving motors and *1:1 Standard Kit League*
 further restricted to two driving motors and restricted to a list of similarly
 powered motors (see <<motor-whitelist>>).
@@ -74,10 +74,9 @@ compared to those are:
 reduces the complexity of robot construction and gameplay. Use of many existing
 fields is possible with no or minor modifications due to flexible dimensions.
 * Each team starts *only one robot*
-* *The Ball* the league uses the same special ball that emits an IR signal that
-Lightweight League uses. Please see <<ball>> for balls specifications.
+* *The Ball* the league uses the old version of junior soccer Lightweight league (now called IR league). Bear in mind that the current IR League ball is not being used for the entry leagues.  Please see <<ball>> for balls specifications.
 * Restrictions on the number of drive motors apply (max. 2 drive motors for *1:1 
-Standard Kit League*, max. 3 drive motors for *1:1 Lightweight League*)
+Standard Kit League*, max. 3 drive motors for *1:1 Infrared League*)
 * In most regions participation in each 1:1 League is limited to two years (see <<competition-cap>>)
 * {++Furthermore, robots that have been constructed for any of the 2:2 RobocupJunior Soccer leagues
 at any level (local, regional, super-regional, international) in past, future, or present
@@ -94,14 +93,15 @@ and keep existing Lego and Fischertechnik robots competitive:
 * Only a list of allowable motors (see <<motor-whitelist>>) with
 comparable power to Lego and Fischertechnik motors is permitted
 
-=== 1:1 Lightweight League
+=== 1:1 Infrared League
 * Number of drive motors is restricted to three
-* The voltage limit remains at 12V (unlike 2:2 LWL where it is increased)
-* {++The weight limit for 1:1 Lightweight League has been increased to match the 2:2 LWL level of 1400g++}
+* The voltage limit remains at 12V (unlike 2:2 IR League where it is increased)
+* {++The weight limit for 1:1 Infrared League (used to be Lightweight) has been increased to match the 2:2 IR league level of 1400g++}
+* {++There is no limitation on the motors being used in this league++}
 
 
 [discrete]
-=== Changes from the 2024 RoboCupJunior Soccer Entry Rules
+=== Changes from the 2025 RoboCupJunior Soccer Entry Rules
 
 {+-~TOC-CHANGES~-+}
 
@@ -110,8 +110,8 @@ comparable power to Lego and Fischertechnik motors is permitted
 
 Team members can participate only twice in each league played according to one of these
 RoboCupJunior Soccer Entry rulesets. After their second participation, they need to
-move on from *1:1 Standard Kit League* to *1:1 Lightweight League* and from 
-*1:1 Lightweight League* to one of the 2:2 Leagues respectively.
+move on from *1:1 Standard Kit League* to *1:1 Infrared League* and from 
+*1:1 Infrared League* to one of the 2:2 Leagues respectively.
 footnote:[Some regions will have other entry leagues that may be exempt from this rule.
 Please refer to your local tournament organizers in order to find out in which leagues
 you may compete.]
@@ -144,11 +144,6 @@ other. Each team has one autonomous robot. The game will consist of two
 halves. The duration of each half is 10-minutes. There will be a 5-minute break
 in between the halves.
 
-The game clock will run for the duration of the halves without stopping (except
-when a referee wants to consult another official). The game clock will be
-run by a referee or a referee assistant (see <<referee-and-referee-assistant>>
-for more information on their roles).
-
 Teams are expected to be at the field 5 minutes before their game starts. Being
 at the inspection table does not count in favor of this time limit. Teams that
 are late for the start of the game may be penalized one goal *per 30 seconds*
@@ -167,7 +162,7 @@ the toss chooses the other option. After the first half, teams switch sides.
 The team not kicking off in the first half of the game will kick off to begin
 the second half of the game.
 
-During the pre-match meeting the referee or their assistant may check whether
+During the pre-match meeting the referee(s) may check whether
 the robots are capable of playing (i.e., whether they are at least able to
 follow and react to the ball). If none of the robots is capable of playing, the
 game will not be played and zero goals will be awarded to both teams.
@@ -191,14 +186,11 @@ adjust their placement to make sure that the robots are placed properly within
 the field positions.
 
 On the referee’s command (usually by whistle), all robots will be started
-immediately by each captain. Any robots that are started early will be removed
+immediately. Any robots that are started early will be removed
 by the referee from the field and deemed damaged.
 
 Before a kick-off, *all damaged robots* are allowed to return to
 the playing field immediately if they are _ready and fully functional_.
-
-If no robots are present at a kick-off (because they are damaged <<damaged-robots>>),
-the penalties are discarded and the match resumes with a <<neutral-kickoff>>.
 
 [[neutral-kickoff]]
 ==== Neutral kick-off
@@ -258,8 +250,8 @@ detection or reach capability of all robots on the field.
 After a visible and loud count footnote:[usually a count of three],
 a referee will call `*lack of progress*` and
 will move the ball to the nearest unoccupied neutral spot. If this does not
-solve the lack of progress, the referee can move the ball to a different
-neutral spot.
+solve the lack of progress, the referee can call lack of progress again and
+move the ball to a different neutral spot in the same way.
 
 
 [[damaged-robots]]
@@ -274,12 +266,6 @@ Some examples of a damaged robot include:
 * it does not respond to the ball, or is unable to move (it lost pieces,
 power, etc.).
 * it turns over on its own accord.
-
-Computers and repair equipment are not permitted in the playing area during
-gameplay. Usually, a team member will need to take the damaged robot to an
-"approved repair table" near the playing area. A referee may permit robot
-sensor calibration, computers and other tools in the playing area, only for the
-5 minutes before the start of each half.
 
 After a robot has been fixed, it will be placed on the unoccupied neutral spot
 furthest from the ball, facing its own goal. A robot can only be returned to
@@ -411,6 +397,8 @@ from at least 5 cm above the highest structure of the robot.
 The dimensions of the handle may exceed the robot height
 limitation, but the part of the handle that exceeds this
 limit cannot be used to mount components of the robot.
+
+The weight of the robot includes that of the handle.
 
 [[top-markers]]
 === Top Markers
@@ -610,28 +598,18 @@ without a warning.
 [[conflict-resolution]]
 == CONFLICT RESOLUTION
 
-[[referee-and-referee-assistant]]
-=== Referee and referee assistant
+[[referees]]
+=== Referees
 
-The referee is a person in charge of making decisions with regards to the game,
-according to these rules, and may be assisted by a referee assistant.
+The referee(s) are in charge of making decisions with regards to the game,
+according to these rules.
 
-*During gameplay, the decisions made by the referee and/or the referee
-assistant are final.*
+*During gameplay, the decisions made by the referee(s) are final.*
 
-Any argument with the referee or the referee assistant can result in a warning.
-If the argument continues or another argument occurs, this may result in
-immediate disqualification from the game.
+Only the team member(s) at the table have a mandate to freely speak to the referee(s).
 
-Only the captain has a mandate to freely speak to the referee and/or their
-assistant. Shouting at a referee and/or their assistant, as well as demanding a
-change in ruling may be penalized by a warning at the referee’s
-discretion.
-
-At the conclusion of the game, the result recorded in the scoresheet is final.
-The referee will ask the captains to add written comments to the scoresheet if
-they consider them necessary. These comments will be reviewed by the tournament
-organizers.
+At the conclusion of the game the results become final with signatures from
+both teams. Disputes need to be settled before signing.
 
 [[rule-clarification]]
 === Rule clarification
@@ -664,7 +642,7 @@ Robots will be measured in an upright position with all parts extended. A
 robot’s dimensions must not exceed the following limits:
 
 |===
-sub-league | *1:1* *Standard* *Kit* *League* | *1:1* *Lightweight* *League* +
+sub-league | *1:1* *Standard* *Kit* *League* | *1:1* *Infrared* *League* +
 |size | 22.4 cm (square) ^[0]^ | 22.0 cm (circle) ^[1]^ +
 |height | 22.4 cm ^[2]^ | 22.0 cm ^[2]^ +
 |weight | 1400 g | 1400 g ^[3]^ +
@@ -713,7 +691,8 @@ sourced in any way the team sees fit.
 Pneumatic devices are allowed to use ambient air only.
 
 Kicker strength is subject to compliance check at any time during the
-competition. During gameplay, a referee can ask to see a sample kick on the
+competition. During gameplay, a referee can {~~ask to see a sample kick~>test
+the kicker power~~} on the
 field before each half when a damaged robot is returned to the field or when
 the game is about to be restarted after a goal. If the referee strongly
 suspects that a kicker exceeds the power limit, they can require an official
@@ -741,7 +720,7 @@ mechanisms.
 A weight limit of 1400g is introduced to prevent heavy custom robots from
 overpowering Lego and Fischertechnik robots.
 
-==== 1:1 Lightweight League
+==== 1:1 Infrared League
 Voltage pump circuits are permitted only for a kicker drive. No voltage may
 exceed 48V at any time and maximum boost voltage must be available for 
 demonstration and measurement at inspections. When not in use measurement
@@ -753,7 +732,7 @@ the voltage of power packs and its circuits, unless the nominal voltage is
 obvious by looking at the robot, its power packs and connections.
 
 The voltage limit remains 12V nominal and 48V maximum at the kicker despite
-changes in 2:2 Lightweight.
+changes in 2:2 Infrared.
 
 A maximum of three drive motors is allowed
 
@@ -818,30 +797,13 @@ inspections include:
 * Voltage restrictions (see <<dimensions>> and <<regulations-limitations>>).
 * Kicker strength limits, if the robot has a kicker (see <<kicker-power-measuring>>).
 
-Proof must be provided by each team that its robots comply with these
-regulations, for example, by a detailed documentation or logbook. Teams may be
-interviewed about their robots and the development process at any time during a
-tournament.
+Teams may be interviewed about their robots and the development process at any
+time during a tournament.
 
 
 [appendix]
 [[technical-specification-for-pulsed-soccer-ball]]
 == Technical Specification for pulsed Soccer Ball
-
-[[pulsed-preamble]]
-=== Preamble
-
-Answering to the request for a soccer ball for RCJ tournaments that would be
-more robust to interfering lights, less energy consuming and mechanically more
-resistant, the Soccer League Committee defined the following technical
-specifications with the special collaboration from EK Japan and HiTechnic.
-
-Producers of these balls must apply for a certification process upon which they
-can exhibit the RCJ-compliant label and their balls used in RCJ tournaments.
-
-Balls with these specifications can be detected using specific sensors but
-also common IR remote control receivers (TSOP1140, TSOP31140, GP1UX511QS,
-etc. - on-off detection with a possible gross indication of distance).
 
 [[pulsed-specifications]]
 === Specifications
@@ -859,13 +821,6 @@ enough ultra-bright, wide-angle LEDs to minimize unevenness of the IR output.
 The diameter of the ball is required to be 74mm. A well-balanced ball shall be
 used.
 
-[[pulsed-drop-test]]
-==== Drop Test
-
-The ball must be able to resist normal gameplay. As an indication of its
-durability, it should be able to survive, undamaged, a free-fall from 1.5
-meters onto a hardwood table or floor.
-
 [[pulsed-modulation]]
 ==== Modulation
 
@@ -878,15 +833,6 @@ full intensity and four pulses at 1/64 of full intensity, followed by a space
 LEDs shall be within the range 45-55mA. The radiant intensity shall be more
 than 20mW/sr per LED.
 
-[[pulsed-battery-life]]
-==== Battery Life
-
-If the ball has an embedded rechargeable battery, when new and fully charged it
-should last for more than 3 hours of continuous use before the brightness of
-the LEDs drops to 90% of the initial value. If the ball uses replaceable
-batteries, a set of new high-quality alkaline batteries should last for more
-than 8 hours of continuous use before the brightness of the LEDs drops to 90%
-of the initial value.
 
 [[pulsed-coloration]]
 ==== Coloration
