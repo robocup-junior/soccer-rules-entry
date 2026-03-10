@@ -29,7 +29,7 @@ tournaments.
 These are the RoboCupJunior Soccer Entry rules for the *1:1 Infrared League*
 and *1:1 Standard Kit League*
 proposed for suggested use by regional and super-regional tournaments in the 
-2025 season. They are released by the RoboCupJunior League Committee. 
+2026 season. They are released by the RoboCupJunior League Committee. 
 The English version of these rules has priority over any translations.
 
 The aim of this document is to provide entry-level rulesets for RoboCupJunior Soccer
