@@ -29,7 +29,7 @@ tournaments.
 These are the RoboCupJunior Soccer Entry rules for the *1:1 Infrared League*
 and *1:1 Standard Kit League*
 proposed for suggested use by regional and super-regional tournaments in the 
-2025 season. They are released by the RoboCupJunior League Committee. 
+2026 season. They are released by the RoboCupJunior League Committee. 
 The English version of these rules has priority over any translations.
 
 The aim of this document is to provide entry-level rulesets for RoboCupJunior Soccer
@@ -647,7 +647,7 @@ sub-league | *1:1* *Standard* *Kit* *League* | *1:1* *Infrared* *League* +
 |height | 22.4 cm ^[2]^ | 22.0 cm ^[2]^ +
 |weight | 1400 g | 1400 g ^[3]^ +
 |ball-capturing zone | 3.0 cm | 3.0 cm +
-|voltage | 12.0 V ^[4]^ ^[5]^ +
+|voltage | 9.0 V ^[4]^ ^[5]^ | 12.0 V ^[4]^ ^[5]^ +
 |===
 
 TIP: [0] Robot must fit smoothly into a cube of this size.
